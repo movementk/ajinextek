@@ -122,10 +122,8 @@ a {
   font-size: 24px;
   color: #282828;
   font-weight: 400;
-  margin-top: 30px; }
-  .introduce .section-header b i {
-    font-style: normal;
-    color: #4a90e2; }
+  margin-top: 30px;
+  line-height: 42px; }
 .introduce .section-header p {
   font-size: 16px;
   color: #666;
@@ -138,7 +136,8 @@ a {
   background-image: url(/assets/images/introduction/bg_introduce.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
   .introduce .section-content .slogan figure img {
     display: block;
     margin: 0 auto; }
@@ -172,6 +171,7 @@ a {
       font-size: 16px;
       font-weight: 300;
       color: #999;
+      line-height: 30px;
       margin-top: 30px; }
   .introduce .section-content .innovation .article-content ul li {
     position: relative; }
@@ -307,84 +307,120 @@ a {
 
 .vision .section-content .global-provider {
   text-align: center;
-  padding-top: 40px;
+  padding-top: 50px;
   background-image: url(/assets/images/introduction/bg_vision.png);
   background-repeat: no-repeat;
   background-position: 50% 0; }
-  .vision .section-content .global-provider .article-header h4 {
-    font-size: 56px;
-    color: #393939;
-    font-weight: bold;
-    font-family: 'Maven Pro', sans-serif; }
-    .vision .section-content .global-provider .article-header h4 small {
-      font-size: 30px;
-      color: #4a90e2;
-      display: block;
-      font-weight: bold; }
-  .vision .section-content .global-provider .article-header > p {
-    font-size: 18px;
-    color: #666;
-    margin-top: 10px;
-    font-weight: 400; }
-  .vision .section-content .global-provider .article-header > ol {
-    display: inline-block;
-    margin-top: 40px;
-    text-align: left; }
-    .vision .section-content .global-provider .article-header > ol > li {
-      position: relative;
-      line-height: 30px;
-      font-size: 16px;
-      color: #666;
-      font-weight: 300;
-      padding-left: 40px; }
-      .vision .section-content .global-provider .article-header > ol > li ~ li {
-        margin-top: 20px; }
-      .vision .section-content .global-provider .article-header > ol > li > span {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 30px;
-        height: 30px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 30px;
+  .vision .section-content .global-provider .article-header {
+    text-align: center;
+    font-family: 'Titillium Web', sans-serif; }
+    .vision .section-content .global-provider .article-header h4 {
+      font-size: 48px;
+      color: #393939;
+      font-style: italic;
+      font-weight: bold;
+      text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.08); }
+      .vision .section-content .global-provider .article-header h4 span {
+        color: #4a90e2; }
+    .vision .section-content .global-provider .article-header dl {
+      display: inline-block;
+      margin-top: 20px; }
+      .vision .section-content .global-provider .article-header dl dt {
+        position: relative;
         display: inline-block;
-        color: #fff;
-        background-color: #4a90e2;
-        text-align: center;
-        font-family: 'Maven Pro', sans-serif;
-        border-radius: 50%; }
+        font-size: 22px;
+        color: #333;
+        font-weight: 600; }
+        .vision .section-content .global-provider .article-header dl dt span {
+          position: relative;
+          top: -4px;
+          display: inline-block;
+          font-size: 24px;
+          margin-right: 10px; }
+          .vision .section-content .global-provider .article-header dl dt span small {
+            position: absolute;
+            bottom: -5px;
+            left: -10px;
+            font-size: 10px;
+            font-weight: 600;
+            white-space: nowrap;
+            letter-spacing: -.5px; }
+            .vision .section-content .global-provider .article-header dl dt span small .icon-right-thin {
+              position: relative;
+              top: 2px;
+              display: inline-block; }
+        .vision .section-content .global-provider .article-header dl dt img {
+          position: relative;
+          top: -2px;
+          display: inline-block;
+          margin: 0 6px 0 5px; }
+        .vision .section-content .global-provider .article-header dl dt:after {
+          display: inline-block;
+          content: " = ";
+          margin: 0 10px; }
+      .vision .section-content .global-provider .article-header dl dd {
+        font-size: 24px;
+        color: #333;
+        font-weight: 600;
+        display: inline-block;
+        font-style: italic; }
+        .vision .section-content .global-provider .article-header dl dd span {
+          color: #4a90e2; }
   .vision .section-content .global-provider .article-content {
-    margin-top: 40px; }
-    .vision .section-content .global-provider .article-content ul {
-      overflow: hidden;
-      background-image: url(/assets/images/introduction/bg_circle.png);
-      background-repeat: no-repeat;
-      background-position: 50% 110px; }
-      .vision .section-content .global-provider .article-content ul > li {
+    margin-top: 80px;
+    padding-bottom: 100px; }
+    .vision .section-content .global-provider .article-content > ul {
+      text-align: center;
+      font-size: 0; }
+      .vision .section-content .global-provider .article-content > ul li {
+        position: relative;
         display: inline-block;
         width: 225px;
         height: 225px;
-        text-align: center;
-        padding-top: 55px;
-        border-radius: 50%; }
-        .vision .section-content .global-provider .article-content ul > li:first-child {
-          float: left;
-          background-color: #4a90e2; }
-        .vision .section-content .global-provider .article-content ul > li:last-child {
-          float: right;
-          background-color: #044dae; }
-        .vision .section-content .global-provider .article-content ul > li:nth-of-type(2) {
-          margin-top: 65px;
-          background-color: #296184; }
-        .vision .section-content .global-provider .article-content ul > li figure img {
+        padding-top: 45px;
+        vertical-align: top;
+        border-radius: 50%;
+        box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.18); }
+        .vision .section-content .global-provider .article-content > ul li:nth-of-type(1) {
+          z-index: 3;
+          margin-right: -10px;
+          background-color: rgba(74, 144, 226, 0.9); }
+        .vision .section-content .global-provider .article-content > ul li:nth-of-type(2) {
+          z-index: 2;
+          background-color: rgba(255, 109, 70, 0.9); }
+        .vision .section-content .global-provider .article-content > ul li:nth-of-type(3) {
+          z-index: 1;
+          margin-left: -10px;
+          background-color: rgba(20, 171, 204, 0.9); }
+        .vision .section-content .global-provider .article-content > ul li figure img {
           display: block;
           margin: 0 auto; }
-        .vision .section-content .global-provider .article-content ul > li figure figcaption {
+        .vision .section-content .global-provider .article-content > ul li figure figcaption {
           font-size: 18px;
           color: #fff;
-          font-weight: 300;
-          margin-top: 20px; }
+          margin-top: 20px;
+          font-weight: 400;
+          line-height: 28px; }
+    .vision .section-content .global-provider .article-content .summary {
+      margin-top: 80px; }
+      .vision .section-content .global-provider .article-content .summary h5 {
+        font-size: 34px;
+        color: #333;
+        font-weight: 500; }
+        .vision .section-content .global-provider .article-content .summary h5 span {
+          color: #4a90e2; }
+        .vision .section-content .global-provider .article-content .summary h5 b {
+          font-size: 34px;
+          color: #4a90e2;
+          font-weight: 500; }
+      .vision .section-content .global-provider .article-content .summary p {
+        font-size: 18px;
+        color: #333;
+        font-weight: 300;
+        margin-top: 20px; }
+        .vision .section-content .global-provider .article-content .summary p b {
+          font-weight: bold;
+          color: #ce0808; }
 
 .group {
   /*background-image: url(/assets/images/introduction/bg_group.png);

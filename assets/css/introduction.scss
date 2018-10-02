@@ -28,10 +28,7 @@
             color: #282828;
             font-weight: 400;
             margin-top: 30px;
-            i {
-                font-style: normal;
-                color: #4a90e2;
-            }
+            line-height: 42px;
         }
         p {
             font-size: 16px;
@@ -49,6 +46,7 @@
             background-repeat: no-repeat;
             background-position: 50% 0;
             background-size: cover;
+            background-attachment: fixed;
             figure {
                 img {
                     display: block;
@@ -90,6 +88,7 @@
                     font-size: 16px;
                     font-weight: 300;
                     color: #999;
+                    line-height: 30px;
                     margin-top: 30px;
                 }
             }
@@ -298,87 +297,105 @@
     .section-content {
         .global-provider {
             text-align: center;
-            padding-top: 40px;
+            padding-top: 50px;
             background-image: url(/assets/images/introduction/bg_vision.png);
             background-repeat: no-repeat;
             background-position: 50% 0;
             .article-header {
+                text-align: center;
+                @include titi();
                 h4 {
-                    font-size: 56px;
+                    font-size: 48px;
                     color: #393939;
+                    font-style: italic;
                     font-weight: bold;
-                    @include maven();
-                    small {
-                        font-size: 30px;
+                    text-shadow: 3px 5px 2px rgba(0, 0, 0, 0.08);
+                    span {
                         color: #4a90e2;
-                        display: block;
-                        font-weight: bold;
                     }
                 }
-                > p {
-                    font-size: 18px;
-                    color: #666;
-                    margin-top: 10px;
-                    font-weight: 400;
-                }
-                > ol {
+                dl {
                     display: inline-block;
-                    margin-top: 40px;
-                    text-align: left;
-                    > li {
+                    margin-top: 20px;
+                    dt {
                         position: relative;
-                        line-height: 30px;
-                        font-size: 16px;
-                        color: #666;
-                        font-weight: 300;
-                        padding-left: 40px;
-                        & ~ li {
-                            margin-top: 20px;
-                        }
-                        > span {
-                            position: absolute;
-                            top: 0;
-                            left: 0;
-                            width: 30px;
-                            height: 30px;
-                            font-weight: 500;
-                            font-size: 16px;
-                            line-height: 30px;
+                        display: inline-block;
+                        font-size: 22px;
+                        color: #333;
+                        font-weight: 600;
+                        span {
+                            position: relative;
+                            top: -4px;
                             display: inline-block;
-                            color: #fff;
-                            background-color: #4a90e2;
-                            text-align: center;
-                            @include maven();
-                            border-radius: 50%;
+                            font-size: 24px;
+                            margin-right: 10px;
+                            small {
+                                position: absolute;
+                                bottom: -5px;
+                                left: -10px;
+                                font-size: 10px;
+                                font-weight: 600;
+                                white-space: nowrap;
+                                letter-spacing: -.5px;
+                                .icon-right-thin {
+                                    position: relative;
+                                    top: 2px;
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                        img {
+                            position: relative;
+                            top: -2px;
+                            display: inline-block;
+                            margin: 0 6px 0 5px;
+                        }
+                        &:after {
+                            display: inline-block;
+                            content: " = ";
+                            margin: 0 10px;
+                        }
+                    }
+                    dd {
+                        font-size: 24px;
+                        color: #333;
+                        font-weight: 600;
+                        display: inline-block;
+                        font-style: italic;
+                        span {
+                            color: #4a90e2;
                         }
                     }
                 }
             }
             .article-content {
-                margin-top: 40px;
-                ul {
-                    overflow: hidden;
-                    background-image: url(/assets/images/introduction/bg_circle.png);
-                    background-repeat: no-repeat;
-                    background-position: 50% 110px;
-                    > li {
+                margin-top: 80px;
+                padding-bottom: 100px;
+                > ul {
+                    text-align: center;
+                    font-size: 0;
+                    li {
+                        position: relative;
                         display: inline-block;
                         width: 225px;
                         height: 225px;
-                        text-align: center;
-                        padding-top: 55px;
+                        padding-top: 45px;
+                        vertical-align: top;
                         border-radius: 50%;
-                        &:first-child {
-                            float: left;
-                            background-color: #4a90e2;
-                        }
-                        &:last-child {
-                            float: right;
-                            background-color: #044dae;
+                        box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.18);
+                        &:nth-of-type(1) {
+                            z-index: 3;
+                            margin-right: -10px;
+                            background-color: rgba(74, 144, 226, .9);
                         }
                         &:nth-of-type(2) {
-                            margin-top: 65px;
-                            background-color: #296184;
+                            z-index: 2;
+                            background-color: rgba(255, 109, 70, .9);
+                        }
+                        &:nth-of-type(3) {
+                            z-index: 1;
+                            margin-left: -10px;
+                            background-color: rgba(20, 171, 204, .9);
                         }
                         figure {
                             img {
@@ -388,9 +405,36 @@
                             figcaption {
                                 font-size: 18px;
                                 color: #fff;
-                                font-weight: 300;
                                 margin-top: 20px;
+                                font-weight: 400;
+                                line-height: 28px;
                             }
+                        }
+                    }
+                }
+                .summary {
+                    margin-top: 80px;
+                    h5 {
+                        font-size: 34px;
+                        color: #333;
+                        font-weight: 500;
+                        span {
+                            color: #4a90e2;
+                        }
+                        b {
+                            font-size: 34px;
+                            color: #4a90e2;
+                            font-weight: 500;
+                        }
+                    }
+                    p {
+                        font-size: 18px;
+                        color: #333;
+                        font-weight: 300;
+                        margin-top: 20px;
+                        b {
+                            font-weight: bold;
+                            color: #ce0808;
                         }
                     }
                 }

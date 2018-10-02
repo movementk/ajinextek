@@ -10,6 +10,14 @@
         <!-- jumbo slide -->
         <div class="jumbotron">
             <ul class="jumbo-slide">
+                <li class="visual-list video">
+                    <video loop muted autoplay>
+                        <source src="/mobile/assets/images/video/26585675-preview.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
+                    <h2>TOGETHER,<br>FOREVER!</h2>
+                </li>
                 <li style="background-image: url(/mobile/assets/images/main/img_jumbo_slider01.jpg)" class="visual-list">
                     <p>더 나은 미래, 아진엑스텍이 함께합니다</p>
                     <h2>TOGETHER,<br>FOREVER!</h2>

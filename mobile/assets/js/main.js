@@ -14,13 +14,20 @@
     });
     $('.jumbotron > .jumbo-slide').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-slide.visual-list').removeClass('action');
+        $("video").each(function(){
+			$(this).stop();
+		});
         setTimeout(function (){ 
             $('.slick-active.visual-list').addClass('action'); 
         });
     });
     $('.jumbotron > .jumbo-slide').on('init', function(event,slick){
         setTimeout(function (){ 
-            $('.slick-active.visual-list').addClass('action'); 
+            $('.slick-active.visual-list').addClass('action');
+            if($('.slick-active.visual-list').find("video").length > 0){
+				var vid = $('.slick-active.visual-list').find("video").get(0);
+				vid.play();
+			}
         });
     });
 

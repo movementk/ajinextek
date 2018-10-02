@@ -131,6 +131,12 @@
       "css": "lock",
       "code": 59405,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ef3eda51383ce050517892df3fc05ffc",
+      "css": "right-thin",
+      "code": 59406,
+      "src": "entypo"
     }
   ]
 }

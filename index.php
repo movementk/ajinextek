@@ -9,6 +9,20 @@
         <!-- main visual slider -->
         <div class="jumbotron">
             <ul class="jumbo-slider">
+                <li class="visual-list video">
+                    <video loop muted autoplay>
+                        <source src="/assets/images/video/26585675-preview.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="container">
+                        <div class="slogan">
+                            <div class="v-align">
+                                <small>더 나은 미래, 아진엑스텍이 함께합니다</small>
+                                <h2>TOGETHER,FOREVER!</h2>
+                            </div>
+                        </div>
+                    </div>
+                </li>
                 <li class="visual-list" style="background-image: url(/assets/images/main/img_jumbo_slide01.jpg);">
                     <div class="container">
                         <div class="slogan">

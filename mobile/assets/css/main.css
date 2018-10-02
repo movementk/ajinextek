@@ -183,6 +183,14 @@ a {
       .jumbotron .jumbo-slide .visual-list.action > h2 {
         top: 0;
         opacity: 1; }
+      .jumbotron .jumbo-slide .visual-list.video {
+        position: relative;
+        overflow: hidden; }
+        .jumbotron .jumbo-slide .visual-list.video > video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%; }
     .jumbotron .jumbo-slide .slick-dots {
       position: absolute;
       bottom: 80px;

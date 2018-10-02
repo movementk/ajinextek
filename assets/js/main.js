@@ -14,6 +14,9 @@
     });
     $('.jumbotron > ul').on('afterChange', function(event, slick, currentSlide, nextSlide){
         $('.slick-slide.visual-list').removeClass('action');
+        $("video").each(function(){
+			$(this).stop();
+		});
         setTimeout(function (){ 
             $('.slick-active.visual-list').addClass('action'); 
         });
@@ -21,6 +24,10 @@
     $('.jumbotron > ul').on('init', function(event,slick){
         setTimeout(function (){ 
             $('.slick-active.visual-list').addClass('action'); 
+            if($('.slick-active.visual-list').find("video").length > 0){
+				var vid = $('.slick-active.visual-list').find("video").get(0);
+				vid.play();
+			}
         });
     });
     

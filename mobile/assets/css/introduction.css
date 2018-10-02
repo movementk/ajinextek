@@ -231,97 +231,84 @@ a {
         .history .section-content .history-list > ol > li:nth-of-type(odd) .details h4:before {
           left: -18px; }
 
-.vision .section-content .details {
+.vision .section-content .global-provider {
   background-image: url(/mobile/assets/images/introduction/bg_vision.png);
   background-repeat: no-repeat;
   background-position: 50% 10px;
   background-size: 100% auto; }
-  .vision .section-content .details .article-header {
+  .vision .section-content .global-provider .article-header {
     text-align: center; }
-    .vision .section-content .details .article-header small {
-      display: block;
-      font-size: 20px;
-      color: #4a90e2;
-      letter-spacing: 1px;
+    .vision .section-content .global-provider .article-header h4 {
+      font-size: 27px;
+      font-style: italic;
+      line-height: 30px;
       font-weight: bold;
-      font-family: 'Maven Pro', sans-serif; }
-    .vision .section-content .details .article-header h4 {
-      position: relative;
-      top: -5px;
-      font-size: 30px;
-      color: #393939;
-      letter-spacing: 1px;
-      font-weight: bold;
-      font-family: 'Maven Pro', sans-serif; }
-    .vision .section-content .details .article-header p {
-      font-size: 13px;
-      color: #666;
-      font-weight: 400;
-      line-height: 20px;
-      margin-top: 10px; }
-  .vision .section-content .details .article-content {
-    text-align: center;
-    margin-top: 25px; }
-    .vision .section-content .details .article-content > ol {
-      display: inline-block;
-      text-align: left; }
-      .vision .section-content .details .article-content > ol > li {
-        font-size: 12px;
-        color: #666;
-        line-height: 16px;
-        font-weight: 300; }
-        .vision .section-content .details .article-content > ol > li ~ li {
-          margin-top: 15px; }
-        .vision .section-content .details .article-content > ol > li > span {
-          width: 16px;
-          height: 16px;
-          font-size: 10px;
-          line-height: 16px;
-          text-align: center;
-          display: inline-block;
-          color: #fff;
-          margin-right: 5px;
-          font-weight: 500;
-          border-radius: 50%;
-          background-color: #4a90e2;
-          font-family: 'Maven Pro', sans-serif; }
-    .vision .section-content .details .article-content > ul {
-      margin-top: 50px; }
-      .vision .section-content .details .article-content > ul > li {
-        display: table;
-        width: 200px;
-        height: 200px;
+      word-break: keep-all;
+      font-family: 'Titillium Web', sans-serif;
+      text-shadow: 0px 6px 2px rgba(0, 0, 0, 0.08); }
+      .vision .section-content .global-provider .article-header h4 span {
+        color: #4a90e2; }
+    .vision .section-content .global-provider .article-header p {
+      margin-top: 30px; }
+      .vision .section-content .global-provider .article-header p img {
         display: block;
-        text-align: center;
         margin: 0 auto;
-        border-radius: 50%; }
-        .vision .section-content .details .article-content > ul > li > div {
-          display: table-cell;
-          height: 200px;
-          width: 200px;
-          vertical-align: middle; }
-          .vision .section-content .details .article-content > ul > li > div figure img {
-            display: block;
-            margin: 0 auto; }
-          .vision .section-content .details .article-content > ul > li > div figure figcaption {
-            font-size: 13px;
-            color: #fff;
-            font-weight: 400;
-            margin-top: 20px; }
-        .vision .section-content .details .article-content > ul > li ~ li {
-          margin-top: 20px; }
-        .vision .section-content .details .article-content > ul > li:nth-of-type(1) {
-          background-color: #4a90e2; }
-          .vision .section-content .details .article-content > ul > li:nth-of-type(1) > div figure img {
-            width: 42px; }
-        .vision .section-content .details .article-content > ul > li:nth-of-type(2) {
-          background-color: #044dae; }
-          .vision .section-content .details .article-content > ul > li:nth-of-type(2) > div figure img {
-            width: 53px; }
-        .vision .section-content .details .article-content > ul > li:nth-of-type(3) {
-          background-color: #296184; }
-          .vision .section-content .details .article-content > ul > li:nth-of-type(3) > div figure img {
-            width: 49px; }
+        width: 230px; }
+  .vision .section-content .global-provider .article-content {
+    margin-top: 45px; }
+    .vision .section-content .global-provider .article-content > ul > li {
+      position: relative;
+      display: block;
+      width: 224px;
+      height: 224px;
+      padding-top: 45px;
+      margin: -10px auto 0 auto;
+      border-radius: 50%;
+      box-shadow: 0px 6px 2px 0px rgba(0, 0, 0, 0.08); }
+      .vision .section-content .global-provider .article-content > ul > li:nth-of-type(1) {
+        z-index: 3;
+        margin-top: 0;
+        background-color: rgba(74, 144, 226, 0.9); }
+        .vision .section-content .global-provider .article-content > ul > li:nth-of-type(1) figure img {
+          width: 59px; }
+      .vision .section-content .global-provider .article-content > ul > li:nth-of-type(2) {
+        z-index: 2;
+        background-color: rgba(255, 109, 70, 0.9); }
+        .vision .section-content .global-provider .article-content > ul > li:nth-of-type(2) figure img {
+          width: 61px; }
+      .vision .section-content .global-provider .article-content > ul > li:nth-of-type(3) {
+        z-index: 1;
+        background-color: rgba(20, 171, 204, 0.9); }
+        .vision .section-content .global-provider .article-content > ul > li:nth-of-type(3) figure img {
+          width: 56px; }
+      .vision .section-content .global-provider .article-content > ul > li figure img {
+        display: block;
+        margin: 0 auto; }
+      .vision .section-content .global-provider .article-content > ul > li figure figcaption {
+        text-align: center;
+        margin-top: 20px;
+        color: #fff;
+        font-size: 18px;
+        line-height: 28px; }
+    .vision .section-content .global-provider .article-content .summary {
+      margin-top: 55px;
+      text-align: center; }
+      .vision .section-content .global-provider .article-content .summary h6 {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #333;
+        word-break: keep-all; }
+        .vision .section-content .global-provider .article-content .summary h6 span {
+          color: #4a90e2; }
+      .vision .section-content .global-provider .article-content .summary p {
+        font-size: 13px;
+        color: #333;
+        font-weight: 300;
+        margin-top: 35px; }
+        .vision .section-content .global-provider .article-content .summary p b {
+          color: #ce0808;
+          font-weight: bold; }
 
 .group .section-content figure .img-fluid {
   display: block;
@@ -502,51 +489,52 @@ a {
 .ci .section-content article.signature .article-content .btn-area {
   margin-top: 20px; }
 
-.introduce .section-content .details .article-header {
-  text-align: center; }
-  .introduce .section-content .details .article-header strong {
-    font-size: 24px;
-    color: #393939;
-    font-weight: bold;
-    line-height: 30px;
-    font-family: 'Maven Pro', sans-serif; }
-    .introduce .section-content .details .article-header strong i {
-      font-style: normal;
-      color: #4a90e2; }
-  .introduce .section-content .details .article-header .slogan {
-    font-size: 18px;
-    color: #282828;
-    font-weight: 400;
-    line-height: 26px;
-    margin-top: 25px; }
-    .introduce .section-content .details .article-header .slogan i {
-      font-style: normal;
-      color: #4a90e2; }
-  .introduce .section-content .details .article-header .summary {
-    font-size: 12px;
-    color: #666;
-    line-height: 18px;
-    margin-top: 30px;
-    word-break: keep-all; }
-.introduce .section-content .details .article-content {
-  text-align: center;
-  padding: 50px 0;
-  margin-top: 50px;
-  background-image: url(/mobile/assets/images/introduction/bg_introduce.jpg);
-  background-size: cover;
-  background-position: 50% 50%;
-  background-repeat: no-repeat; }
-  .introduce .section-content .details .article-content figure img {
-    width: 212px;
-    margin: 0 auto;
-    display: block; }
-  .introduce .section-content .details .article-content b {
-    display: block;
-    font-size: 15px;
-    color: #fff;
-    font-weight: 400;
-    line-height: 24px;
-    margin-top: 35px; }
+.introduce .section-content .details {
+  word-break: keep-all; }
+  .introduce .section-content .details .article-header {
+    text-align: center; }
+    .introduce .section-content .details .article-header h4 {
+      font-size: 24px;
+      color: #393939;
+      font-weight: bold;
+      line-height: 30px;
+      font-family: 'Maven Pro', sans-serif; }
+      .introduce .section-content .details .article-header h4 i {
+        font-style: normal;
+        color: #4a90e2; }
+    .introduce .section-content .details .article-header b {
+      display: block;
+      font-size: 18px;
+      color: #282828;
+      font-weight: 400;
+      line-height: 26px;
+      margin-top: 25px; }
+    .introduce .section-content .details .article-header p {
+      font-size: 12px;
+      color: #666;
+      line-height: 18px;
+      margin-top: 30px;
+      word-break: keep-all; }
+  .introduce .section-content .details .article-content {
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 50px;
+    background-image: url(/mobile/assets/images/introduction/bg_introduce.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+    .introduce .section-content .details .article-content figure img {
+      width: 212px;
+      margin: 0 auto;
+      display: block; }
+    .introduce .section-content .details .article-content b {
+      display: block;
+      font-size: 15px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 24px;
+      margin-top: 35px; }
 .introduce .section-content .innovation .article-header {
   text-align: center;
   padding: 50px 0; }
@@ -560,7 +548,8 @@ a {
     font-size: 16px;
     color: #282828;
     font-weight: 400;
-    line-height: 24px; }
+    line-height: 24px;
+    word-break: keep-all; }
     .introduce .section-content .innovation .article-header b i {
       font-style: normal;
       color: #4a90e2; }

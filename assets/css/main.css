@@ -115,6 +115,20 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%; }
+    .jumbotron ul li.video {
+      position: relative;
+      overflow: hidden;
+      height: 810px; }
+      .jumbotron ul li.video > video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        -ms-transform: scale(1.4);
+        -webkit-transform: scale(1.4);
+        transform: scale(1.4); }
+      .jumbotron ul li.video .slogan {
+        position: relative; }
     .jumbotron ul li .slogan {
       display: table;
       width: 100%;

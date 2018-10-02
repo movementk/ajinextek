@@ -49,6 +49,16 @@
                     opacity: 1;
                 }
             }
+            &.video {
+                position: relative;
+                overflow: hidden;
+                > video {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                }
+            }
         }
         .slick-dots {
             position: absolute;

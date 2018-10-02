@@ -40,10 +40,11 @@
                 <div class="container">
                     <h3>회사소개</h3>
                     <strong>TECHNOLOGY FOR <i>FUTURE</i></strong>
-                    <b>미래를 위한 기술, 미래를 여닌 기업 <i>아진엑스텍</i></b>
+                    <b>
+                        ㈜아진엑스텍은 1995년 창업이래, 첨단 산업자동화 분야에 필요한 제어기 국산화를 통해<br>세계시장 진출을 위해 전 임직원이 역량을 결집시켜 왔습니다.
+                    </b>
                     <p>
-                        첨단산업 자동화 분야에 필요한 제어기를 국산화하여 20년 이상의 성공 경험과 완벽한 서비스 정신을 갖춘<br>
-                        아진엑스텍은 세계시장으로 진출하는 혁신적인 제품을 만들고자 합니다.
+                        그 결과, 국내에서는 유일하게 모터 제어 전용 VLSI 칩(CAMC-계열)을 개발, 판매함으로써 Mechatronics 분야 부품소재 전문기업으로 자리 매김하였고, <br>이를 바탕으로 반도체 제조 공정, LED,LCD Display 공정, PCB/SMT 공정, Mobile, 자동차 공정에 필요한 다양한 장비의 제어기를 국산화 하였습니다.
                     </p>
                 </div>
             </div>
@@ -54,7 +55,9 @@
                              <img src="/assets/images/introduction/logo.png" alt="">
                          </figure>
                          <p>
-                             다양한 기술들이 연결되어 아진엑스텍의<br>성장과 혁신으로 글로벌 기업으로 거듭납니다.
+                             ㈜아진엑스텍은 "Together, Forever"의 시대정신 아래 "Beyond Mechatronics, <br>Toward Robotopia"의 사명을 실현하여 4차 산업혁명시대와 함께할 것입니다.
+
+
                          </p>
                      </div>
                  </article>
@@ -63,7 +66,7 @@
                          <div class="article-header">
                              <h4>INNOVATION</h4>
                              <b>모션제어기기 산업의 <i>leader,</i> 아진엑스텍입니다.</b>
-                             <p>고객에게 가치를 줄 수 있는 제품을 제공하고, 함께 성장할 수 있는 길을 만들어 가겠습니다 !</p>
+                             <p>새로운 중기 Roadmap의 조기 구체화를 통해 기존 사업 분야인 전자부품시장, Middle end 시장, PC 시장, Motion control을 통한 장비 제어 시장 등의 기술 분야에서 <br>기계모듈시장, High-end 시장, PLC 시장, Robot control를 통한 smart factory 구현 및 EV 제어 등 신규 사업 분야에 진출하였습니다.</p>
                          </div>
                          <div class="article-content">
                              <ul class="row">

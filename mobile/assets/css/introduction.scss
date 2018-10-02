@@ -156,128 +156,110 @@
 //비전
 .vision {
     .section-content {
-        .details {
+        .global-provider {
             background-image: url(/mobile/assets/images/introduction/bg_vision.png);
             background-repeat: no-repeat;
             background-position: 50% 10px;
             background-size: 100% auto;
             .article-header {
                 text-align: center;
-                small {
-                    display: block;
-                    font-size: 20px;
-                    color: #4a90e2;
-                    letter-spacing: 1px;
-                    font-weight: bold;
-                    @include maven();
-                }
                 h4 {
-                    position: relative;
-                    top: -5px;
-                    font-size: 30px;
-                    color: #393939;
-                    letter-spacing: 1px;
+                    font-size: 27px;
+                    font-style: italic;
+                    line-height: 30px;
                     font-weight: bold;
-                    @include maven();
+                    word-break: keep-all;
+                    @include titi();
+                    text-shadow: 0px 6px 2px rgba(0, 0, 0, 0.08);
+                    span {
+                        color: #4a90e2;
+                    }
                 }
                 p {
-                    font-size: 13px;
-                    color: #666;
-                    font-weight: 400;
-                    line-height: 20px;
-                    margin-top: 10px;
+                    margin-top: 30px;
+                    img {
+                        display: block;
+                        margin: 0 auto;
+                        width: 230px;
+                    }
                 }
             }
             .article-content {
-                text-align: center;
-                margin-top: 25px;
-                > ol {
-                    display: inline-block;
-                    text-align: left;
-                    > li {
-                        font-size: 12px;
-                        color: #666;
-                        line-height: 16px;
-                        font-weight: 300;
-                        & ~ li {
-                            margin-top: 15px;
-                        }
-                        > span {
-                            width: 16px;
-                            height: 16px;
-                            font-size: 10px;
-                            line-height: 16px;
-                            text-align: center;
-                            display: inline-block;
-                            color: #fff;
-                            margin-right: 5px;
-                            font-weight: 500;
-                            border-radius: 50%;
-                            background-color: #4a90e2;
-                            @include maven();
-                        }
-                    }
-                }
+                margin-top: 45px;
                 > ul {
-                    margin-top: 50px;
                     > li {
-                        display: table;
-                        width: 200px;
-                        height: 200px;
+                        position: relative;
                         display: block;
-                        text-align: center;
-                        margin: 0 auto;
+                        width: 224px;
+                        height: 224px;
+                        padding-top: 45px;
+                        margin: -10px auto 0 auto;
                         border-radius: 50%;
-                        > div {
-                            display: table-cell;
-                            height: 200px;
-                            width: 200px;
-                            vertical-align: middle;
+                        box-shadow: 0px 6px 2px 0px rgba(0, 0, 0, 0.08);
+                        &:nth-of-type(1) {
+                            z-index: 3;
+                            margin-top: 0;
+                            background-color: rgba(74, 144, 226, .9);
                             figure {
                                 img {
-                                    display: block;
-                                    margin: 0 auto;
-                                }
-                                figcaption {
-                                    font-size: 13px;
-                                    color: #fff;
-                                    font-weight: 400;
-                                    margin-top: 20px;
-                                }
-                            }
-                        }
-                        & ~ li {
-                            margin-top: 20px;
-                        }
-                        &:nth-of-type(1) {
-                            background-color: #4a90e2;
-                            > div {
-                                figure {
-                                    img {
-                                        width: 42px;
-                                    }
+                                    width: 59px;
                                 }
                             }
                         }
                         &:nth-of-type(2) {
-                            background-color: #044dae;
-                            > div {
-                                figure {
-                                    img {
-                                        width: 53px;
-                                    }
+                            z-index: 2;
+                            background-color: rgba(255, 109, 70, .9);
+                            figure {
+                                img {
+                                    width: 61px;
                                 }
                             }
                         }
                         &:nth-of-type(3) {
-                            background-color: #296184;
-                            > div {
-                                figure {
-                                    img {
-                                        width: 49px;
-                                    }
+                            z-index: 1;
+                            background-color: rgba(20, 171, 204, .9);
+                            figure {
+                                img {
+                                    width: 56px;
                                 }
                             }
+                        }
+                        figure {
+                            img {
+                                display: block;
+                                margin: 0 auto;
+                            }
+                            figcaption {
+                                text-align: center;
+                                margin-top: 20px;
+                                color: #fff;
+                                font-size: 18px;
+                                line-height: 28px;
+                            }
+                        }
+                    }
+                }
+                .summary {
+                    margin-top: 55px;
+                    text-align: center;
+                    h6 {
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 500;
+                        color: #333;
+                        word-break: keep-all;
+                        span {
+                            color: #4a90e2;
+                        }
+                    }
+                    p {
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: 300;
+                        margin-top: 35px;
+                        b {
+                            color: #ce0808;
+                            font-weight: bold;
                         }
                     }
                 }
@@ -605,9 +587,10 @@
 .introduce {
     .section-content {
         .details {
+            word-break: keep-all;
             .article-header {
                 text-align: center;
-                strong {
+                h4 {
                     font-size: 24px;
                     color: #393939;
                     font-weight: bold;
@@ -618,18 +601,15 @@
                         color: #4a90e2;
                     }
                 }
-                .slogan {
+                b {
+                    display: block;
                     font-size: 18px;
                     color: #282828;
                     font-weight: 400;
                     line-height: 26px;
                     margin-top: 25px;
-                    i {
-                        font-style: normal;
-                        color: #4a90e2;
-                    }
                 }
-                .summary {
+                p {
                     font-size: 12px;
                     color: #666;
                     line-height: 18px;
@@ -645,6 +625,7 @@
                 background-size: cover;
                 background-position: 50% 50%;
                 background-repeat: no-repeat;
+                background-attachment: fixed;
                 figure {
                     img {
                         width: 212px;
@@ -678,6 +659,7 @@
                     color: #282828;
                     font-weight: 400;
                     line-height: 24px;
+                    word-break: keep-all;
                     i {
                         font-style: normal;
                         color: #4a90e2;

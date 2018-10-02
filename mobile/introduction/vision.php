@@ -23,46 +23,39 @@
                 <h3 class="section-title">비젼</h3>
             </div>
             <div class="section-content">
-                <article class="details">
+                <article class="global-provider">
                     <div class="container">
                         <div class="article-header">
-                            <small>AJINEXTEK</small>
-                            <h4>GLOBAL PROVIDER</h4>
-                            <p>"고속, 고정도 모션 제어" 를 중심으로 하는<br> 메카트로닉스 정밀 제어기 분야</p>
+                            <h4>Beyond Mecha<span>tronics,</span> Toward Mecha<span>Robotopia</span></h4>
+                            <p>
+                                <img src="/mobile/assets/images/introduction/img_summary_txt.png" alt="">
+                            </p>
                         </div>
                         <div class="article-content">
-                            <ol>
-                                <li><span>1</span>제어 분야 핵심기술 국산화 자체 상품화 추진</li>
-                                <li><span>2</span>FIELD Application 역량 강화 </li>
-                                <li><span>3</span>글로벌 마케팅 (수입대체, 수출촉진) 추진</li>
-                                <li><span>4</span>제품 신뢰성, 성능, 가격 경쟁력 개선</li>
-                            </ol>
                             <ul>
                                 <li>
-                                    <div>
-                                        <figure>
-                                            <img src="/mobile/assets/images/introduction/img_vision01.png" alt="">
-                                            <figcaption>자기계발 (기술경제)</figcaption>
-                                        </figure>
-                                    </div>
+                                    <figure>
+                                        <img src="/mobile/assets/images/introduction/img_vision01.png" alt="">
+                                        <figcaption>Mechatronics<br>부품소재</figcaption>
+                                    </figure>
                                 </li>
                                 <li>
-                                    <div>
-                                        <figure>
-                                            <img src="/mobile/assets/images/introduction/img_vision02.png" alt="">
-                                            <figcaption>사회변혁 (정보경쟁)</figcaption>
-                                        </figure>
-                                    </div>
+                                    <figure>
+                                        <img src="/mobile/assets/images/introduction/img_vision02.png" alt="">
+                                        <figcaption>Robotics<br>부품소재</figcaption>
+                                    </figure>
                                 </li>
                                 <li>
-                                    <div>
-                                        <figure>
-                                            <img src="/mobile/assets/images/introduction/img_vision03.png" alt="">
-                                            <figcaption>국부창조 (세계경쟁)</figcaption>
-                                        </figure>
-                                    </div>
+                                    <figure>
+                                        <img src="/mobile/assets/images/introduction/img_vision03.png" alt="">
+                                        <figcaption>Highend 모션제어<br>Core Technology</figcaption>
+                                    </figure>
                                 </li>
                             </ul>
+                            <div class="summary">
+                                <h6>Mecha<span>Robotronics</span> 부품소재 <span>초일류</span> 기업</h6>
+                                <p>자동화 분야의 Motion Control Korea <b>No.1</b></p>
+                            </div>
                         </div>
                     </div>
                 </article>
