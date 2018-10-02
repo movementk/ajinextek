@@ -87,7 +87,7 @@
                                         <h4>MOTION MODULE</h4>
                                         <p>Base Board 제품군은 PCI Bus,  PCIe Bus를 지원하는 모듈 베이스 보드입니다.</p>
                                         <div class="btn-area">
-                                            <a href="#" class="btn btn-lg btn-blue" role="button">제품보기</a>
+                                            <a href="/mobile/product/product_list02.php" class="btn btn-lg btn-blue" role="button">제품보기</a>
                                         </div>
                                     </div>
                                 </li>
@@ -99,7 +99,7 @@
                                         <h4>MOTION MODULE</h4>
                                         <p>Base Board 제품군은 PCI Bus,  PCIe Bus를 지원하는 모듈 베이스 보드입니다.</p>
                                         <div class="btn-area">
-                                            <a href="#" class="btn btn-lg btn-blue" role="button">제품보기</a>
+                                            <a href="/mobile/product/product_list02.php" class="btn btn-lg btn-blue" role="button">제품보기</a>
                                         </div>
                                     </div>
                                 </li>

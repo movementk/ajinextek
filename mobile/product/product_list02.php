@@ -79,7 +79,7 @@
                             <ul>
                                 <li>
                                     <div class="product-item">
-                                        <a href="#">
+                                        <a href="/mobile/product/product_view.php">
                                             <figure>
                                                 <img src="/mobile/assets/images/product/img_product02.jpg" class="img-fluid" alt="">
                                             </figure>
@@ -96,7 +96,7 @@
                                 </li>
                                 <li>
                                     <div class="product-item">
-                                        <a href="#">
+                                        <a href="/mobile/product/product_view.php">
                                             <figure>
                                                 <img src="/mobile/assets/images/product/img_product02.jpg" class="img-fluid" alt="">
                                             </figure>
@@ -110,7 +110,7 @@
                                         <a href="#" class="btn btn-md btn-blue" role="button">다운로드</a>
                                         <a href="#" class="btn btn-md btn-gray" role="button">견적문의</a>
                                     </div>
-                                </li>s
+                                </li>
                             </ul>
                         </div>
                     </article>

@@ -40,7 +40,7 @@
         <article class="quick-menu">
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="/mobile/introduction/introduce.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick01.jpg" alt="">
                             <figcaption>회사소개</figcaption>
@@ -48,7 +48,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/mobile/customs/request_list.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick02.jpg" alt="">
                             <figcaption>견적상담</figcaption>
@@ -56,15 +56,15 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/mobile/customs/download.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick03.jpg" alt="">
-                            <figcaption>자료실</figcaption>
+                            <figcaption>다운로드</figcaption>
                         </figure>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/mobile/customs/qna_list.php">
                         <figure>
                             <img src="/mobile/assets/images/main/icon_quick04.jpg" alt="">
                             <figcaption>Q&amp;A</figcaption>
@@ -79,9 +79,21 @@
             <div class="container">
                 <h2>PRODUCT LINE UP</h2>
                 <div class="section-content">
+                    <div class="product-tab">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="product-tab" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                MOTION CHIP
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="product-tab">
+                                <a class="dropdown-item" href="#">MOTION CHIP</a>
+                                <a class="dropdown-item" href="#">MOTION CHIP2</a>
+                                <a class="dropdown-item" href="#">MOTION CHIP3</a>
+                            </div>
+                        </div>
+                    </div>
                     <ul class="product-list">
                         <li class="p-slide">
-                            <h3>MOTION CHIP</h3>
+                            <!--<h3>MOTION CHIP</h3>-->
                             <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩</p>
                             <div class="product-info">
                                 <div class="details">
@@ -95,7 +107,7 @@
                             </div>
                         </li>
                         <li class="p-slide">
-                            <h3>MOTION CHIP2</h3>
+                            <!--<h3>MOTION CHIP2</h3>-->
                             <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩2</p>
                             <div class="product-info">
                                 <div class="details">
@@ -109,7 +121,7 @@
                             </div>
                         </li>
                         <li class="p-slide">
-                            <h3>MOTION CHIP3</h3>
+                            <!--<h3>MOTION CHIP3</h3>-->
                             <p class="summary">CAMC Series는 아진엑스텍의 순수 기술력으로 제작된 국내 유일의 국산 모션 제어칩3</p>
                             <div class="product-info">
                                 <div class="details">
@@ -134,19 +146,19 @@
                 <div class="section-content">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/introduction/news_list.php">
                                 <h3>중국 절강성 국진로봇기술 유한공사 CTO 내방</h3>
                                 <p class="date">2018.03.20</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/introduction/news_list.php">
                                 <h3>세계1위 산업용로봇기업 야스카와전기, 보스톤 소재 베크나테크놀러지</h3>
                                 <p class="date">2018.03.20</p>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/introduction/news_list.php">
                                 <h3>제21기 정기주주총회 소집</h3>
                                 <p class="date">2018.03.20</p>
                             </a>
@@ -154,7 +166,7 @@
                     </ul>
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-lg btn-more" role="button">자세히보기</a>
+                            <a href="/mobile/introduction/news_list.php" class="btn btn-lg btn-more" role="button">자세히보기</a>
                         </p>
                     </div>
                 </div>
@@ -168,21 +180,21 @@
                 <div class="section-content">
                     <ul class="new-list">
                         <li>
-                            <a href="#">
+                            <a href="/mobile/product/product_list01.php">
                                 <figure>
                                     <img src="/mobile/assets/images/main/img_new_product01.jpg" class="img-fluid" alt="">
                                 </figure>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/product/product_list01.php">
                                 <figure>
                                     <img src="/mobile/assets/images/main/img_new_product01.jpg" class="img-fluid" alt="">
                                 </figure>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/mobile/product/product_list01.php">
                                 <figure>
                                     <img src="/mobile/assets/images/main/img_new_product01.jpg" class="img-fluid" alt="">
                                 </figure>

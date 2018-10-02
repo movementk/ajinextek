@@ -85,7 +85,7 @@
                 </li>
                 <li>
                     <div class="summary">
-                        <h3>자료실</h3>
+                        <h3>다운로드</h3>
                         <p>원하시는 제품의 메뉴얼 및 자료를<br>이용하실 수 있습니다.</p>
                     </div>
                     <a href="#" class="btn btn-more" role="button">자세히보기</a>

@@ -310,9 +310,11 @@ a {
           color: #ce0808;
           font-weight: bold; }
 
-.group .section-content figure .img-fluid {
-  display: block;
-  margin: 0 auto; }
+.group .section-content figure {
+  padding: 0 15%; }
+  .group .section-content figure .img-fluid {
+    display: block;
+    margin: 0 auto; }
 
 .news-list .section-content .default-board {
   margin-top: 25px; }
@@ -444,13 +446,15 @@ a {
   text-align: center;
   margin-top: 50px; }
   .ci .section-content article .article-content .btn-area .btn-down {
-    display: inline-block;
+    display: block;
     width: 165px;
     height: 36px;
     color: #fff;
     line-height: 36px;
     text-align: center;
     font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
     font-weight: 400;
     margin-bottom: 10px; }
     .ci .section-content article .article-content .btn-area .btn-down:before {
