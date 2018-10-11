@@ -1,5 +1,13 @@
 @import 'common';
 
+.product {
+    .page-header {
+        .bg-backdrop {
+            background-image: url(/assets/images/product/bg_page_header.jpg);
+        }
+    }
+}
+
 // 제품 리스트 1letter
 .product-list01 {
     .section-content {

@@ -105,6 +105,8 @@ a {
   .container-fluid .row .col-12 {
     float: left; }
 
+.investment .page-header .bg-backdrop {
+  background-image: url(/assets/images/investment/bg_page_header.jpg); }
 .investment .lnb .lnb-list {
   width: 33.33333%; }
 

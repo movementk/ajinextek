@@ -105,6 +105,9 @@ a {
   .container-fluid .row .col-12 {
     float: left; }
 
+.product .page-header .bg-backdrop {
+  background-image: url(/assets/images/product/bg_page_header.jpg); }
+
 .depth-list {
   margin-top: 90px; }
   .depth-list .article-content {

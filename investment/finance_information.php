@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="/assets/css/sub.css">
 <link rel="stylesheet" href="/assets/css/investment.css">
 </head>
-<body class="sub introduction">
+<body class="sub investment">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
     
     <!-- page-header -->
