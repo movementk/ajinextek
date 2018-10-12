@@ -181,82 +181,106 @@
         			<tbody>
         				<tr>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare01.png" class="img-fluid" alt="">
-                                </div>
-                                <p>가족체육대회</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare01.png" class="img-fluid" alt="">
+									</div>
+									<p>가족체육대회</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare02.png" class="img-fluid" alt="">
-                                </div>
-                                <p>문화공간</p>
+        						<a href="#">
+        							<div class="item">
+        								<img src="/mobile/assets/images/careers/img_welfare02.png" class="img-fluid" alt="">
+        							</div>
+        							<p>문화공간</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare03.png" class="img-fluid" alt="">
-                                </div>
-                                <p>휴식공간</p>
-        					</td>
-        				</tr>
-        				<tr>
-        					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare04.png" class="img-fluid" alt="">
-                                </div>
-                                <p>워크샵</p>
-        					</td>
-        					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare05.png" class="img-fluid" alt="">
-                                </div>
-                                <p>결혼기념일 선물</p>
-        					</td>
-        					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare06.png" class="img-fluid" alt="">
-                                </div>
-                                <p>사외교육 지원</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare03.png" class="img-fluid" alt="">
+									</div>
+									<p>휴식공간</p>
+       							</a>
         					</td>
         				</tr>
         				<tr>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare07.png" class="img-fluid" alt="">
-                                </div>
-                                <p>명절 선물</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare04.png" class="img-fluid" alt="">
+									</div>
+									<p>워크샵</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare08.png" class="img-fluid" alt="">
-                                </div>
-                                <p>기숙사 제공</p>
+        						<a href="#">
+        							<div class="item">
+        								<img src="/mobile/assets/images/careers/img_welfare05.png" class="img-fluid" alt="">
+        							</div>
+        							<p>결혼기념일 선물</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare09.png" class="img-fluid" alt="">
-                                </div>
-                                <p>우수사원 학비 지원</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare06.png" class="img-fluid" alt="">
+									</div>
+									<p>사외교육 지원</p>
+       							</a>
         					</td>
         				</tr>
         				<tr>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare10.png" class="img-fluid" alt="">
-                                </div>
-                                <p>중식/석식 제공</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare07.png" class="img-fluid" alt="">
+									</div>
+									<p>명절 선물</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare11.png" class="img-fluid" alt="">
-                                </div>
-                                <p>경조사 휴가 지원</p>
+        						<a href="#">
+        							<div class="item">
+        								<img src="/mobile/assets/images/careers/img_welfare08.png" class="img-fluid" alt="">
+        							</div>
+        							<p>기숙사 제공</p>
+        						</a>
         					</td>
         					<td>
-                                <div class="item">
-                                    <img src="/mobile/assets/images/careers/img_welfare12.png" class="img-fluid" alt="">
-                                </div>
-                                <p>체육시설</p>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare09.png" class="img-fluid" alt="">
+									</div>
+									<p>우수사원 학비 지원</p>
+       							</a>
+        					</td>
+        				</tr>
+        				<tr>
+        					<td>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare10.png" class="img-fluid" alt="">
+									</div>
+									<p>중식/석식 제공</p>
+        						</a>
+        					</td>
+        					<td>
+        						<a href="#">
+        							<div class="item">
+        								<img src="/mobile/assets/images/careers/img_welfare11.png" class="img-fluid" alt="">
+        							</div>
+        							<p>경조사 휴가 지원</p>
+        						</a>
+        					</td>
+        					<td>
+        						<a href="#">
+									<div class="item">
+										<img src="/mobile/assets/images/careers/img_welfare12.png" class="img-fluid" alt="">
+									</div>
+									<p>체육시설</p>
+       							</a>
         					</td>
         				</tr>
         			</tbody>
