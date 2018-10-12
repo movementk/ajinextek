@@ -128,7 +128,7 @@ a {
       padding-right: 5px; }
 
 .investment .page-header {
-  /*background-image: url(/mobile/assets/images/investment);*/ }
+  background-image: url(/mobile/assets/images/investment/bg_page_header.jpg); }
 
 .finance-information .section-content article ~ article {
   margin-top: 45px; }

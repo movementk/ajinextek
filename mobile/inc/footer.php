@@ -2,9 +2,9 @@
 <footer id="footer">
     <nav class="foot-nav">
         <ul>
-            <li><a href="/mobile/customs/qna_list.php">문의하기</a></li>
-            <li><a href="/mobile/customs/download.php">다운로드</a></li>
-            <li><a href="/mobile/customs/agency.php">대리점</a></li>
+            <li><a href="/mobile/customer/qna_list.php">문의하기</a></li>
+            <li><a href="/mobile/customer/download.php">다운로드</a></li>
+            <li><a href="/mobile/customer/agency.php">대리점</a></li>
             <li><a href="/mobile/introduction/location.php">찾아오시는 길</a></li>
         </ul>
     </nav>
