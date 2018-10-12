@@ -341,19 +341,20 @@ a {
   height: 100px;
   text-align: center;
   border-right: 1px solid #244f99;
-  border-bottom: 1px solid #244f99; }
+  border-bottom: 1px solid #244f99;
+  /*> a {
+  	display: block;
+  }*/ }
   .careers-info .welfare .table-wrap .table tbody tr td:last-child {
     border-right: 0; }
-  .careers-info .welfare .table-wrap .table tbody tr td > a {
-    display: block; }
-    .careers-info .welfare .table-wrap .table tbody tr td > a .item {
-      width: 50px;
-      height: 28px;
-      margin: 0 auto; }
-    .careers-info .welfare .table-wrap .table tbody tr td > a > p {
-      font-size: 12px;
-      color: #fff;
-      font-weight: 300;
-      margin-top: 10px; }
+  .careers-info .welfare .table-wrap .table tbody tr td .item {
+    width: 50px;
+    height: 28px;
+    margin: 0 auto; }
+  .careers-info .welfare .table-wrap .table tbody tr td > p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px; }
 
 /*# sourceMappingURL=careers.css.map */
