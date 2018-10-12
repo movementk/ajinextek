@@ -1,23 +1,23 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/mobile/assets/css/sub.css">
-<link rel="stylesheet" href="/mobile/assets/css/customs.css">
+<link rel="stylesheet" href="/mobile/assets/css/customer.css">
 </head>
-<body class="sub">
+<body class="sub customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 
     <!-- page-header -->
     <div class="page-header">
         <div class="container">
-            <h2>COMPANY</h2>
+            <h2>CUSTOMER COMPANY</h2>
             <p>미래를 여는 기업 아진엑스텍입니다.</p>
         </div>
     </div>
 
     <!-- snb-list -->
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customs/_snb_list.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customer/_snb_list.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="customs">
+    <main id="content">
         <div class="container">
             <section class="download">
                 <div class="section-header">
@@ -65,65 +65,32 @@
                                         <td><a href="#">SMC-1V02</a></td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td><a href="#">SMC-1V02</a></td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
-                                            </a>
-                                        </td>
-                                        <td>
-                                            <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                     </tr>
@@ -131,32 +98,32 @@
                                         <td><a href="#">SMC-1V02</a></td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                     </tr>
@@ -164,32 +131,65 @@
                                         <td><a href="#">SMC-1V02</a></td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                         <td>
                                             <a href="#">
-                                                <img src="/mobile/assets/images/customs/ico_down.gif" alt="download">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="#">SMC-1V02</a></td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
                                     </tr>

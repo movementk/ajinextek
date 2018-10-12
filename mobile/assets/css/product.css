@@ -128,7 +128,7 @@ a {
       padding-right: 5px; }
 
 .product .page-header {
-  /*background-image: url(/mobile/assets/images/product);*/ }
+  background-image: url(/mobile/assets/images/product/bg_page_header.jpg); }
 
 .product-list .section-content .product-info figure {
   padding: 0 8%; }

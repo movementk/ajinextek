@@ -3,13 +3,13 @@
 <link rel="stylesheet" href="/mobile/assets/css/sub.css">
 <link rel="stylesheet" href="/mobile/assets/css/product.css">
 </head>
-<body class="sub">
+<body class="sub product">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 
     <!-- page-header -->
     <div class="page-header">
         <div class="container">
-            <h2>COMPANY</h2>
+            <h2>PRODUCT</h2>
             <p>미래를 여는 기업 아진엑스텍입니다.</p>
         </div>
     </div>
@@ -18,7 +18,7 @@
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/product/_snb_list.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="product">
+    <main id="content">
         <section class="product-view">
             <nav class="product-nav">
                 <div class="dropdown">

@@ -1,27 +1,27 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/mobile/assets/css/sub.css">
-<link rel="stylesheet" href="/mobile/assets/css/customs.css">
+<link rel="stylesheet" href="/mobile/assets/css/customer.css">
 </head>
-<body class="sub">
+<body class="sub customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 
     <!-- page-header -->
     <div class="page-header">
         <div class="container">
-            <h2>COMPANY</h2>
+            <h2>CUSTOMER COMPANY</h2>
             <p>미래를 여는 기업 아진엑스텍입니다.</p>
         </div>
     </div>
 
     <!-- snb-list -->
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customs/_snb_list.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customer/_snb_list.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="customs">
+    <main id="content">
         <div class="container">
-            <section class="request-list">
+            <section class="qna-list">
                 <div class="section-header">
-                    <h3 class="section-title">견적요청</h3>
+                    <h3 class="section-title">Q&amp;A</h3>
                 </div>
                 <div class="section-content">
                     <div class="search-form-2">
@@ -48,7 +48,7 @@
                     <div class="default-board">
                         <ul>
                             <li>
-                                <a href="/mobile/customs/qna_view.php">
+                                <a href="/mobile/customer/qna_view.php">
                                     <h4>감사보고서 (2015.12)</h4>
                                     <dl>
                                         <dt>등록일</dt>
@@ -59,7 +59,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/mobile/customs/qna_view.php">
+                                <a href="/mobile/customer/qna_view.php">
                                     <h4>감사보고서 (2015.12)</h4>
                                     <dl>
                                         <dt>등록일</dt>
@@ -70,7 +70,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/mobile/customs/qna_view.php">
+                                <a href="/mobile/customer/qna_view.php">
                                     <h4>감사보고서 (2015.12)</h4>
                                     <dl>
                                         <dt>등록일</dt>
@@ -81,7 +81,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/mobile/customs/qna_view.php">
+                                <a href="/mobile/customer/qna_view.php">
                                     <h4>감사보고서 (2015.12)</h4>
                                     <dl>
                                         <dt>등록일</dt>
@@ -92,7 +92,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="/mobile/customs/qna_view.php">
+                                <a href="/mobile/customer/qna_view.php">
                                     <h4>감사보고서 (2015.12)</h4>
                                     <dl>
                                         <dt>등록일</dt>

@@ -87,19 +87,17 @@
             <li>
                 <a href="#">고객지원</a>
                 <ul>
-                    <li><a href="/mobile/customs/download.php">다운로드</a></li>
-                    <li><a href="/mobile/customs/qna_list.php">Q&amp;A</a></li>
-                    <li><a href="/mobile/customs/faq_list.php">FAQ</a></li>
-                    <li><a href="/mobile/customs/request_list.php">견적요청</a></li>
-                    <li><a href="/mobile/customs/agency.php">대리점</a></li>
+                    <li><a href="/mobile/customer/download.php">다운로드</a></li>
+                    <li><a href="/mobile/customer/qna_list.php">Q&amp;A</a></li>
+                    <li><a href="/mobile/customer/faq_list.php">FAQ</a></li>
+                    <li><a href="/mobile/customer/request_list.php">견적요청</a></li>
+                    <li><a href="/mobile/customer/agency.php">대리점</a></li>
                 </ul>
             </li>
             <li>
                 <a href="#">채용정보</a>
                 <ul>
-                    <li><a href="#">인재상</a></li>
-                    <li><a href="#">채용안내</a></li>
-                    <li><a href="#">인사/복지제도</a></li>
+                    <li><a href="/mobile/careers/careers_info.php">채용정보</a></li>
                 </ul>
             </li>
         </ul>

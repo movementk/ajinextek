@@ -1,23 +1,23 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/dochead.php'); ?>
 <link rel="stylesheet" href="/mobile/assets/css/sub.css">
-<link rel="stylesheet" href="/mobile/assets/css/customs.css">
+<link rel="stylesheet" href="/mobile/assets/css/customer.css">
 </head>
-<body class="sub">
+<body class="sub customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/header.php'); ?>
 
     <!-- page-header -->
     <div class="page-header">
         <div class="container">
-            <h2>COMPANY</h2>
+            <h2>CUSTOMER COMPANY</h2>
             <p>미래를 여는 기업 아진엑스텍입니다.</p>
         </div>
     </div>
 
     <!-- snb-list -->
-    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customs/_snb_list.php'); ?>
+    <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/customer/_snb_list.php'); ?>
     
     <!-- Content -->
-    <main id="content" class="customs">
+    <main id="content">
         <div class="container">
             <section class="agency">
                 <div class="section-header">
@@ -25,7 +25,7 @@
                 </div>
                 <div class="section-content">
                     <figure>
-                        <img src="/mobile/assets/images/customs/img_map.jpg" class="img-fluid" alt="">
+                        <img src="/mobile/assets/images/customer/img_map.jpg" class="img-fluid" alt="">
                     </figure>
                     <div class="table-responsive">
                         <table class="table table-type-1">
