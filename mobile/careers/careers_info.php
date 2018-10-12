@@ -69,36 +69,46 @@
 					<h4 class="title">채용 안내</h4>
 				</div>
 				<div class="section-content">
-					<ul class="step-list">
-						<li>
-							<div class="details">
-								<i>STEP 01</i>
-								<h5>공고</h5>
+					<ul class="row">
+						<li class="col-6">
+							<div class="steps">
+								<div class="details">
+									<i>STEP 01</i>
+									<h5>공고</h5>
+								</div>
 							</div>
 						</li>
-						<li>
-							<div class="details">
-								<i>STEP 02</i>
-								<h5>서류전형</h5>
+						<li class="col-6">
+							<div class="steps">
+								<div class="details">
+									<i>STEP 02</i>
+									<h5>서류전형</h5>
+								</div>
+							</div>	
+						</li>
+						<li class="col-6">
+							<div class="steps">
+								<div class="details">
+									<i>STEP 03</i>
+									<h5>임원면접</h5>
+								</div>
 							</div>
 						</li>
-						<li>
-							<div class="details">
-								<i>STEP 03</i>
-								<h5>임원면접</h5>
+						<li class="col-6">
+							<div class="steps">
+								<div class="details">
+									<i>STEP 04</i>
+									<h5>실무면접</h5>
+								</div>
 							</div>
 						</li>
-						<li>
-							<div class="details">
-								<i>STEP 04</i>
-								<h5>실무면접</h5>
-							</div>
-						</li>
-						<li>
-							<div class="details">
-								<i>STEP 05</i>
-								<h5>채용결정</h5>
-								<p>과정별 합격자 <br>개별 통보</p>
+						<li class="col-6">
+							<div class="steps">
+								<div class="details">
+									<i>STEP 05</i>
+									<h5>채용결정</h5>
+									<p>과정별 합격자 <br>개별 통보</p>
+								</div>
 							</div>
 						</li>
 					</ul>
@@ -136,6 +146,16 @@
 				<div class="section-content">
 					<figure>
 						<img src="/mobile/assets/images/careers/img_systems_steps.jpg" class="img-fluid" alt="">
+						<figcaption class="sr-only">
+							<ol>
+								<li>사원(연구원)(4년)</li>
+								<li>대리(주임연구원)(4년)</li>
+								<li>과장(선임연구원)(5년)</li>
+								<li>차장(책임연구원)(5년)</li>
+								<li>부장(수석연구원)(5년)</li>
+								<li>임원</li>
+							</ol>
+						</figcaption>
 					</figure>
 					<ol class="systems-list">
 						<li>
