@@ -1,8 +1,10 @@
 @import 'common';
 
-.customs {
+.customer {
     .page-header {
-        
+        .bg-backdrop {
+            background-image: url(/assets/images/customer/bg_page_header.jpg);
+        }
     }
     .lnb {
         .lnb-list {
@@ -42,7 +44,7 @@
 						.subject {
 							&.reply {
 								background: none;
-								background-image: url(/assets/images/customs/icon_reply.jpg);
+								background-image: url(/assets/images/customer/icon_reply.jpg);
 								background-repeat: no-repeat;
 								background-position: 25px 48%;
 								> a {
@@ -372,7 +374,7 @@
             padding: 55px 65px 55px 165px;
             border: 1px solid #dfdfdf;
             background-color: #fafafc;
-            background-image: url(/assets/images/customs/bg_attention_box.png);
+            background-image: url(/assets/images/customer/bg_attention_box.png);
             background-repeat: no-repeat;
             background-position: 60px 50%;
             > p {
@@ -533,7 +535,7 @@
 						.subject {
 							&.reply {
 								background: none;
-								background-image: url(/assets/images/customs/icon_reply.jpg);
+								background-image: url(/assets/images/customer/icon_reply.jpg);
 								background-repeat: no-repeat;
 								background-position: 25px 48%;
 								> a {

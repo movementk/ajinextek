@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customs.css">
+<link rel="stylesheet" href="/assets/css/customer.css">
 </head>
-<body class="sub custerm">
+<body class="sub customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
     
     <!-- page-header -->
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="page-summary">
                 <div class="v-align">
-                    <h2>CUSTOMS SERVICE</h2>
+                    <h2>CUSTOMER SERVICE</h2>
                     <p>미래를 여는 기업 아진엑스텍입니다</p>
                 </div>
             </div>
@@ -22,11 +22,11 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customs/download.php">다운로드</a></li>
-                <li class="active"><a href="/customs/qna_list.php">Q&amp;A</a></li>
-                <li><a href="/customs/faq_list.php">FAQ</a></li>
-                <li><a href="/customs/request_list.php">견적요청</a></li>
-                <li><a href="/customs/agency.php">대리점</a></li>
+                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
+                <li><a href="/customer/faq_list.php">FAQ</a></li>
+                <li class="active"><a href="/customer/request_list.php">견적요청</a></li>
+                <li><a href="/customer/agency.php">대리점</a></li>
             </ul>
         </div>
     </nav>
@@ -34,17 +34,14 @@
     <!-- Content Start -->
     <main id="content">
         <div class="container">
-            <section class="qna-list">
+            <section class="request-list">
                 <div class="section-header">
-                    <h3>Q&amp;A</h3>
+                    <h3>견적요청</h3>
                 </div>
                 <div class="section-content">
                     <div class="search-form">
                         <form action="#">
                             <div class="form-group">
-								<select class="form-control">
-                                    <option>제품명 검색</option>
-                                </select>
                                 <select class="form-control">
                                     <option>전체</option>
                                 </select>
@@ -70,7 +67,7 @@
                                 <tr>
                                     <td class="num">152</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             CAD자료 요청
                                             <i class="icon-lock">
                                                 <span class="sr-only">비밀글</span>
@@ -87,7 +84,7 @@
 								<tr>
 									<td class="num">152</td>
 									<td class="subject reply">
-										<a href="/customs/qna_view.php">
+										<a href="#">
 											<span>RE</span>T68-PR 2D 오류 문의 
 										</a>
 									</td>
@@ -97,7 +94,7 @@
                                 <tr>
                                     <td class="num">151</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             smc-2v02 / smc-2v04
                                             <i class="icon-reply-num">[1]
                                                 <span class="sr-only">댓글갯수</span>
@@ -110,7 +107,7 @@
                                 <tr>
                                     <td class="num">150</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             T68-PR 2D
                                         </a>
                                     </td>
@@ -120,7 +117,7 @@
                                 <tr>
                                     <td class="num">149</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             pci-n404 보드 인식 오류 문의
                                             <i class="icon-reply-num">[1]
                                                 <span class="sr-only">댓글갯수</span>
@@ -133,7 +130,7 @@
                                 <tr>
                                     <td class="num">148</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             원호 보간 사용상의 문의
                                             <i class="icon-reply-num">[2]
                                                 <span class="sr-only">댓글갯수</span>
@@ -146,7 +143,7 @@
                                 <tr>
                                     <td class="num">147</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             SIO 사용상 이상증상에 대한 문의
                                         </a>
                                     </td>
@@ -156,7 +153,7 @@
                                 <tr>
                                     <td class="num">146</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             PCI-N804는 3축 직선보간이 가능하나요?
                                         </a>
                                     </td>
@@ -166,7 +163,7 @@
                                 <tr>
                                     <td class="num">145</td>
                                     <td class="subject">
-                                        <a href="/customs/qna_view.php">
+                                        <a href="#">
                                             OS 변경
                                             <i class="icon-reply-num">[1]
                                                 <span class="sr-only">댓글갯수</span>

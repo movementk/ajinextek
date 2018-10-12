@@ -1,8 +1,8 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php');?>
 <link rel="stylesheet" href="/assets/css/sub.css">
-<link rel="stylesheet" href="/assets/css/customs.css">
+<link rel="stylesheet" href="/assets/css/customer.css">
 </head>
-<body class="sub custerm">
+<body class="sub customer">
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php');?>
     
     <!-- page-header -->
@@ -11,7 +11,7 @@
         <div class="container">
             <div class="page-summary">
                 <div class="v-align">
-                    <h2>CUSTOMS SERVICE</h2>
+                    <h2>CUSTOMER SERVICE</h2>
                     <p>미래를 여는 기업 아진엑스텍입니다</p>
                 </div>
             </div>
@@ -22,11 +22,11 @@
     <nav id="lnb">
         <div class="container">
             <ul class="lnb-list">
-                <li><a href="/customs/download.php">다운로드</a></li>
-                <li><a href="/customs/qna_list.php">Q&amp;A</a></li>
-                <li class="active"><a href="/customs/faq_list.php">FAQ</a></li>
-                <li><a href="/customs/request_list.php">견적요청</a></li>
-                <li><a href="/customs/agency.php">대리점</a></li>
+                <li><a href="/customer/download.php">다운로드</a></li>
+                <li><a href="/customer/qna_list.php">Q&amp;A</a></li>
+                <li class="active"><a href="/customer/faq_list.php">FAQ</a></li>
+                <li><a href="/customer/request_list.php">견적요청</a></li>
+                <li><a href="/customer/agency.php">대리점</a></li>
             </ul>
         </div>
     </nav>

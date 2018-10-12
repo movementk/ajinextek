@@ -181,7 +181,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="/customs/download.php">고객지원</a>
+                            <a href="/customer/download.php">고객지원</a>
                             <div class="customer-support">
                                 <div class="depth-2">
                                     <div class="intro">
@@ -195,25 +195,25 @@
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customs/download.php">다운로드</a></h3>
+                                                    <h3><a href="/customer/download.php">다운로드</a></h3>
                                                 </div>
                                                 <div>
-                                                    <h3><a href="/customs/agency.php">대리점</a></h3>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <h3><a href="/customs/qna_list.php"><span>Q&amp;A</span></a></h3>
+                                                    <h3><a href="/customer/agency.php">대리점</a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customs/faq_list.php"><span>FAQ</span></a></h3>
+                                                    <h3><a href="/customer/qna_list.php"><span>Q&amp;A</span></a></h3>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customs/request_list.php"
+                                                    <h3><a href="/customer/faq_list.php"><span>FAQ</span></a></h3>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div>
+                                                    <h3><a href="/customer/request_list.php"
                                                     >견적요청</a></h3>
                                                 </div>
                                             </li>
@@ -237,17 +237,7 @@
                                         <ul>
                                             <li>
                                                 <div>
-                                                    <h3><a href="#">인재상</a></h3>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <h3><a href="#">채용안내</a></h3>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div>
-                                                    <h3><a href="#">인사/복지제도</a></h3>
+                                                    <h3><a href="/careers/careers_info.php">채용정보</a></h3>
                                                 </div>
                                             </li>
                                         </ul>

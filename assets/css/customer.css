@@ -105,9 +105,11 @@ a {
   .container-fluid .row .col-12 {
     float: left; }
 
-.customs .lnb .lnb-list {
+.customer .page-header .bg-backdrop {
+  background-image: url(/assets/images/customer/bg_page_header.jpg); }
+.customer .lnb .lnb-list {
   width: 20%; }
-.customs.space {
+.customer.space {
   padding-bottom: 150px; }
 
 .qna-list .section-content .search-form .form-group {
@@ -123,7 +125,7 @@ a {
     padding-left: 30px; }
   .qna-list .section-content .table-wrap .type-2 tbody tr .subject.reply {
     background: none;
-    background-image: url(/assets/images/customs/icon_reply.jpg);
+    background-image: url(/assets/images/customer/icon_reply.jpg);
     background-repeat: no-repeat;
     background-position: 25px 48%; }
     .qna-list .section-content .table-wrap .type-2 tbody tr .subject.reply > a {
@@ -386,7 +388,7 @@ a {
   padding: 55px 65px 55px 165px;
   border: 1px solid #dfdfdf;
   background-color: #fafafc;
-  background-image: url(/assets/images/customs/bg_attention_box.png);
+  background-image: url(/assets/images/customer/bg_attention_box.png);
   background-repeat: no-repeat;
   background-position: 60px 50%; }
   .faq-list .section-content .attention-box > p {
@@ -502,7 +504,7 @@ a {
     padding-left: 30px; }
   .request-list .section-content .table-wrap .type-2 tbody tr .subject.reply {
     background: none;
-    background-image: url(/assets/images/customs/icon_reply.jpg);
+    background-image: url(/assets/images/customer/icon_reply.jpg);
     background-repeat: no-repeat;
     background-position: 25px 48%; }
     .request-list .section-content .table-wrap .type-2 tbody tr .subject.reply > a {
@@ -568,4 +570,4 @@ a {
   margin-top: 20px;
   background-color: #0c3c8e; }
 
-/*# sourceMappingURL=customs.css.map */
+/*# sourceMappingURL=customer.css.map */
