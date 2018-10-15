@@ -473,10 +473,10 @@ a {
     height: 225px;
     border-top: 2px solid #4a90e2; }
     .opened #header #gnb > ul > li.active > div.product-info {
-      height: 430px; }
+      height: 490px; }
       .opened #header #gnb > ul > li.active > div.product-info .intro {
         position: relative;
-        height: 430px; }
+        height: 490px; }
         .opened #header #gnb > ul > li.active > div.product-info .intro .btn-area {
           position: absolute;
           bottom: 40px;
@@ -501,7 +501,7 @@ a {
               color: #fff;
               background-color: #4a90e2; }
       .opened #header #gnb > ul > li.active > div.product-info .depth-2 .page-map > ul > li {
-        height: 430px; }
+        height: 490px; }
   .opened #header .language > li {
     color: #999; }
   .opened #header .global-search .default-btn {
