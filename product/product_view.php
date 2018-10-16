@@ -229,26 +229,55 @@
                                     <h4 class="sub-title">다운로드</h4>
                                     <div class="table-wrap">
                                         <h5>MANUAL</h5>
-                                        <table class="table table-bordered">
-                                            <colgroup>
-                                                <col style="width: 200px">
-                                                <col style="width: 940px">
-                                            </colgroup>
-                                            <tbody>
-                                                <tr>
-                                                    <th>H/W Manual</th>
-                                                    <td>
-                                                        <a href="#">BI-FR,BIHR_HW_KOR_V20110107.pdf</a>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>AXT Reference Manual</th>
-                                                    <td>
-                                                        <a href="#">CarrierBoard_REF_AXT_KOR_V20090201.pdf</a>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                        <div class="table-wrap manual">
+                                            <table class="table table">
+                                                <caption>Motion Module</caption>
+                                                <thead>
+                                                    <tr>
+                                                        <th>S/W Manual</th>
+                                                        <th>H/W Manual</th>
+                                                        <th>Driver</th>
+                                                        <th>Ex</th>
+                                                        <th>App</th>
+                                                        <th>Dim</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                        <td>
+                                                            <a href="#">
+                                                                <img src="/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
                                         <h5>CATAKOGUE</h5>
                                         <table class="table table-bordered">
                                             <colgroup>
@@ -276,6 +305,11 @@
                             </div>
                         </div>
                     </article>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-md btn-gray" role="button">목록으로</a>
+                        </p>
+                    </div>
                 </div>
             </section>
         </div>

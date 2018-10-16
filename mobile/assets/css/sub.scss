@@ -800,7 +800,10 @@
                 font-weight: 500;
                 @include maven();
                 border: 0;
-                background-color: #0c3c8e !important;
+                background-color: #0c3c8e;
+                &.active {
+                    background-color: #4a90e2 !important;
+                }
             }
         }
         &.show {

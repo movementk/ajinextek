@@ -197,6 +197,161 @@
                             </table>
                         </div>
                     </article>
+                    
+                    <br><br><br>
+                    
+                    <!-- software-list -->
+                    <article class="software-list">
+                        <div class="accordion" id="software-down">
+                            <div class="card">
+                                <div class="card-header" id="heading-1">
+                                    <a href="#" class="btn btn-link" data-toggle="collapse" data-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                        AXT
+                                    </a>
+                                </div>
+                                <div id="collapse-1" class="collapse show" aria-labelledby="heading-1" data-parent="#software-down">
+                                    <div class="card-body">
+                                        <div class="table-wrap">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading-2">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                        AXT
+                                    </a>
+                                </div>
+                                <div id="collapse-2" class="collapse" aria-labelledby="heading-2" data-parent="#software-down">
+                                    <div class="card-body">
+                                        <div class="table-wrap">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="heading-3">
+                                    <a href="#" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                        AXT
+                                    </a>
+                                </div>
+                                <div id="collapse-3" class="collapse" aria-labelledby="heading-3" data-parent="#software-down">
+                                    <div class="card-body">
+                                        <div class="table-wrap">
+                                            <table class="table">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#">
+                                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                                            </a>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </section>
         </div>

@@ -118,84 +118,152 @@
                             <li>외부 I/O 68pin Champ 커넥터</li>
                             <li>EzSoftware AXT, EzSoftware RM 소프트웨어 제공</li>
                         </ul>
-                        <div class="btn-area">
-                            <p>
-                                <a href="#" class="btn btn-lg btn-specifications btn-blue" role="button">제품사양 보기</a>
-                            </p>
-                            <p>
-                                <a href="#" class="btn btn-md btn-down btn-gray" role="button">다운로드</a>
-                                <a href="#" class="btn btn-md btn-estimate btn-gray" role="button">견적문의</a>
-                            </p>
+                    </div>
+                </article>
+                
+                <!-- nav-tab -->
+                <nav class="nav-tablist">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-lg btn-specifications active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">제품사양 보기</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-md btn-down" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">다운로드</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="btn btn-md btn-estimate" role="button">견적문의</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- tab Content -->
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                        <h3>제품사양</h3>
+                        <div class="table-wrap">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>항목</th>
+                                        <th>사양</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Form Factor</td>
+                                        <td>Standard ISA Full Size</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Bus interface</td>
+                                        <td>16bit ISA bus, 8MHz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Interrupt</td>
+                                        <td>Manual setting<br>(using DIP switches)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Internal Setting Register</td>
+                                        <td>16bit ISA bus, 8MHz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Front panel I/O</td>
+                                        <td>2port 68pin Champ<br>connector x 2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Local bus</td>
+                                        <td>Support 4x local bus slot</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Status LEDs</td>
+                                        <td>Check 5 power divisions and SUB 1,2,3,4 status</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Power supply / Current consumption</td>
+                                        <td>DC 5V / 3A</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Input/output insulation voltage</td>
+                                        <td>2500Vrms</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Operating temperature / Humidity</td>
+                                        <td>Temperature 0 ~ 55°C / Humidity 5 ~ 90% (No condensation)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Storage temperature</td>
+                                        <td>-20 ~ 70°C</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Weight</td>
+                                        <td>193g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Exterior dimension of product</td>
+                                        <td>338 (W) mm x 108 (L) mm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                </article>
-                <article class="specifications">
-                    <h3>제품사양</h3>
-                    <div class="table-wrap">
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th>항목</th>
-                                    <th>사양</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Form Factor</td>
-                                    <td>Standard ISA Full Size</td>
-                                </tr>
-                                <tr>
-                                    <td>Bus interface</td>
-                                    <td>16bit ISA bus, 8MHz</td>
-                                </tr>
-                                <tr>
-                                    <td>Interrupt</td>
-                                    <td>Manual setting<br>(using DIP switches)</td>
-                                </tr>
-                                <tr>
-                                    <td>Internal Setting Register</td>
-                                    <td>16bit ISA bus, 8MHz</td>
-                                </tr>
-                                <tr>
-                                    <td>Front panel I/O</td>
-                                    <td>2port 68pin Champ<br>connector x 2</td>
-                                </tr>
-                                <tr>
-                                    <td>Local bus</td>
-                                    <td>Support 4x local bus slot</td>
-                                </tr>
-                                <tr>
-                                    <td>Status LEDs</td>
-                                    <td>Check 5 power divisions and SUB 1,2,3,4 status</td>
-                                </tr>
-                                <tr>
-                                    <td>Power supply / Current consumption</td>
-                                    <td>DC 5V / 3A</td>
-                                </tr>
-                                <tr>
-                                    <td>Input/output insulation voltage</td>
-                                    <td>2500Vrms</td>
-                                </tr>
-                                <tr>
-                                    <td>Operating temperature / Humidity</td>
-                                    <td>Temperature 0 ~ 55°C / Humidity 5 ~ 90% (No condensation)</td>
-                                </tr>
-                                <tr>
-                                    <td>Storage temperature</td>
-                                    <td>-20 ~ 70°C</td>
-                                </tr>
-                                <tr>
-                                    <td>Weight</td>
-                                    <td>193g</td>
-                                </tr>
-                                <tr>
-                                    <td>Exterior dimension of product</td>
-                                    <td>338 (W) mm x 108 (L) mm</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <caption>Motion Modulem</caption>
+                                <thead>
+                                    <tr>
+                                        <th>S/W Manual</th>
+                                        <th>H/W Manual</th>
+                                        <th>Driver</th>
+                                        <th>Ex</th>
+                                        <th>App</th>
+                                        <th>Dim</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                        <td>
+                                            <a href="#">
+                                                <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                </article>
+                    <!--<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                        content-3
+                    </div>-->
+                </div>
+                <div class="btn-prev">
+                    <p>
+                        <a href="#" class="btn btn-lg btn-gray" role="button">목록으로</a>
+                    </p>
+                </div>
             </div>
         </section>
     </main>

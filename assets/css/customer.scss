@@ -505,6 +505,79 @@
                 }
             }
         }
+        .software-list {
+            .accordion {
+                .card {
+                    border: 0;
+                    border-radius: 0;
+                    & ~ .card {
+                        margin-top: 30px;
+                    }
+                    .card-header {
+                        padding: 0;
+                        border: 0;
+                        background: none;
+                        .btn-link {
+                            width: 100%;
+                            text-align: left;
+                            font-size: 15px;
+                            color: #fff;
+                            line-height: 52px;
+                            padding: 0 20px;
+                            font-weight: 600;
+                            @include maven();
+                            border: 1px solid #0c3c8e;
+                            background-color: #0c3c8e;
+                            &:after {
+                                float: right;
+                                content: "\F005";
+                                font-family: "fontello";
+                            }
+                            &.collapsed {
+                                color: #333;
+                                border-color: #ccc;
+                                background: none;
+                                &:after {
+                                    content: "\F004";
+                                }
+                            }
+                        }
+                    }
+                    .card-body {
+                        padding: 0;
+                        .table-wrap {
+                            .table {
+                                border: 0;
+                                tbody {
+                                    tr {
+                                        td {
+                                            font-size: 13px;
+                                            color: #666;
+                                            text-align: left;
+                                            vertical-align: middle;
+                                            @include maven();
+                                            padding: 17px 40px 17px 15px;
+                                            &:first-child {
+                                                border-right: 1px solid #dfdfdf;
+                                            }
+                                            &:before {
+                                                color: #4a90e2;
+                                                content: "\E801";
+                                                font-family: "fontello";
+                                                margin-right: 10px;
+                                            }
+                                            > a {
+                                                float: right;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
 		.paging {
 			margin-top: 60px;
 		}

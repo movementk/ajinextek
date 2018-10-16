@@ -70,6 +70,84 @@
                 }
             }
         }
+        .software-list {
+            .accordion {
+                .card {
+                    border: 0;
+                    border-radius: 0;
+                    & ~ .card {
+                        margin-top: 10px;
+                    }
+                    .card-header {
+                        padding: 0;
+                        background: none;
+                        border: 0;
+                        .btn {
+                            font-size: 13px;
+                            color: #fff;
+                            width: 100%;
+                            padding: 0 10px;
+                            line-height: 38px;
+                            @include maven();
+                            text-align: left;
+                            font-weight: 500;
+                            text-decoration: none !important;
+                            background-color: #0c3c8e;
+                            border: 1px solid #0c3c8e;
+                            &:after {
+                                font-family: "fontello";
+                                float: right;
+                                content: "\E805";
+                            }
+                            &.collapsed {
+                                color: #333;
+                                border: 1px solid #ccc;
+                                background-color: #fff;
+                                &:after {
+                                    content: "\E804";
+                                }
+                            }
+                        }
+                    }
+                    .card-body {
+                        padding: 0;
+                        .table-wrap {
+                            .table {
+                                border: 0;
+                                margin: 0;
+                                tbody {
+                                    tr {
+                                        td {
+                                            padding: 15px 10px;
+                                            font-size: 13px;
+                                            color: #666;
+                                            font-weight: 400;
+                                            vertical-align: middle;
+                                            text-align: left;
+                                            @include maven();
+                                            border: 0;
+                                            border-bottom: 1px solid #d6d6d6;
+                                            &:before {
+                                                font-family: "fontello";
+                                                content: "\E801";
+                                                color: #4a90e2;
+                                                margin-right: 5px;
+                                            }
+                                            > a {
+                                                float: right;
+                                                img {
+                                                    width: 14px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 

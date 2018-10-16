@@ -197,7 +197,8 @@ a {
           background-color: #4a90e2; }
         #lnb .lnb-list > li > a i {
           font-style: normal;
-          font-family: 'Maven Pro', sans-serif; }
+          font-family: 'Maven Pro', sans-serif;
+          letter-spacing: -.5px; }
       #lnb .lnb-list > li:first-child {
         border-left: 1px solid #dfdfdf; }
       #lnb .lnb-list > li.active > a {
