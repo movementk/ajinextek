@@ -205,6 +205,8 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <h3>다운로드</h3>
+                        <h4>MANUAL</h4>
                         <div class="table-responsive">
                             <table class="table">
                                 <caption>Motion Modulem</caption>
@@ -250,6 +252,22 @@
                                                 <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                             </a>
                                         </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <p class="attention">attention text</p>
+                        <h4>SOFTWARE</h4>
+                        <div class="table-wrap type-2">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <th>AXT</th>
+                                        <td><a href="#">EzSoftware AXT V1.9.0.0001</a></td>
+                                    </tr>
+                                    <tr>
+                                        <th>AXT</th>
+                                        <td><a href="#">EzSoftware AXT V1.9.0.0001</a></td>
                                     </tr>
                                 </tbody>
                             </table>
