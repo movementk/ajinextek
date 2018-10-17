@@ -346,9 +346,10 @@ a {
     padding: 10px 20px; }
   .product-view .section-content .product-tab-details .article-content #down .table-wrap.manual .table {
     width: 100%;
-    border: 0;
     text-align: center;
-    font-family: 'Maven Pro', sans-serif; }
+    font-family: 'Maven Pro', sans-serif;
+    border: 0;
+    border-top: 2px solid #0c3c8e; }
     .product-view .section-content .product-tab-details .article-content #down .table-wrap.manual .table caption {
       width: 100%;
       color: #fff;

@@ -342,9 +342,10 @@
                         &.manual {
                             .table {
                                 width: 100%;
-                                border: 0;
                                 text-align: center;
                                 @include maven();
+                                border: 0;
+                                border-top: 2px solid #0c3c8e;
                                 caption {
                                     width: 100%;
                                     color: #fff;
