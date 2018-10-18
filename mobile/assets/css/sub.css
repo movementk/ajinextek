@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
@@ -745,5 +746,14 @@ a {
   background-color: #4a90e2 !important; }
   .product-nav > .dropdown.show .btn-secondary:after {
     content: "\E805"; }
+
+.attention {
+  font-size: 13px;
+  color: #4a90e2;
+  font-weight: 400;
+  margin-top: 10px; }
+  .attention:before {
+    content: "※";
+    margin-right: 5px; }
 
 /*# sourceMappingURL=sub.css.map */
