@@ -139,6 +139,9 @@ a {
         text-align: center;
         background-color: #4e92e2;
         margin-right: 15px; }
+.qna-list .section-content .btn-area {
+  text-align: right;
+  margin-top: 30px; }
 .qna-list .section-content .paging {
   margin-top: 60px; }
 

@@ -179,6 +179,11 @@
                             </tbody>
                         </table>
                     </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-lg btn-white" role="button">글쓰기</a>
+                        </p>
+                    </div>
                     <nav class="paging" aria-label="Page navigation">
                         <ul class="pagination">
                             <li class="first">

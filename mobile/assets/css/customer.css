@@ -229,6 +229,9 @@ a {
 
 .qna-list .section-content .default-board {
   margin-top: 30px; }
+.qna-list .section-content .btn-area {
+  text-align: center;
+  margin-top: 30px; }
 .qna-list .section-content .paging {
   margin-top: 25px; }
 
