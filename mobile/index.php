@@ -206,9 +206,66 @@
         </section>
     </main>
 
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-popup" data-toggle="modal" data-target="#main-popup">
+        팝업버튼
+    </button>
+    
+    <!-- main-popup -->
+    <div class="modal fade" id="main-popup" tabindex="-1" role="dialog" aria-labelledby="main-popupLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <ul class="modal-slider">
+                        <li>
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="/mobile/assets/images/main/img_jumbo_slider01.jpg" class="img-fluid" alt="">
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <label><input type="checkbox"> 오늘하루 열지 않습니다.</label>
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">닫기</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="/mobile/assets/js/main.js"></script>
+    <script>
+        (function($){
+            /*$('#main-popup').modal('show');*/
+			$('#main-popup').on('show.bs.modal', function (e) {
+				setTimeout(function(){
+					$('#main-popup .modal-body .modal-slider').slick({
+						autoplay: true,
+						dots: true,
+                        arrows: false,
+						infinite: true,
+						autoplaySpeed: 5000,
+						cssEase: 'linear',
+						pauseOnHover: false,
+						pauseOnFocus: false,
+                        prevArrow: '<button class="slick-prev"><i class="icon-left-open-big"></i></button>',
+                        nextArrow: '<button class="slick-next"><i class="icon-right-open-big"></i></button>',
+					});
+				}, 200);
+			});
+        })(jQuery);
+    </script>
 </body>
 </html>

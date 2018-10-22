@@ -536,6 +536,7 @@
             }
         }
         &.table-write {
+            table-layout: auto !important;
             border-color: #292929;
             tbody {
                 tr {
@@ -946,7 +947,6 @@
 .board-view {
     .view-head {
         border-top: 2px solid #292929;
-        border-bottom: 1px solid #dfdfdf;
         > h4 {
             font-size: 16px;
             color: #333;
@@ -981,6 +981,12 @@
                         margin: 0;
                     }
                 }
+            }
+        }
+        .table-wrap {
+            .table {
+                border-top: 1px solid #dfdfdf;
+                border-bottom: 0;
             }
         }
     }

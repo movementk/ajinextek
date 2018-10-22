@@ -487,6 +487,28 @@
                         <li>2018-01-01</li>
                         <li>123</li>
                     </ul>
+                    <div class="table-wrap">
+                        <table class="table type-1">
+                            <tbody>
+                                <tr>
+                                    <th>성명</th>
+                                    <td>홍길동</td>
+                                    <th>업체명</th>
+                                    <td>주식회사 아진엑스텍</td>
+                                </tr>
+                                <tr>
+                                    <th>전화번호</th>
+                                    <td>010-1111-1111</td>
+                                    <th>이메일</th>
+                                    <td>hong@naver.com</td>
+                                </tr>
+                                <tr>
+                                    <th>제품분야</th>
+                                    <td colspan="3">BOARD(Module)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="view-body">
                     질문 내용이 노출되는 영역입니다.<br>

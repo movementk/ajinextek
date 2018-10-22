@@ -204,8 +204,8 @@
                 </article>
             </div>
         </section>
-        
     </main>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php');?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php');?>
     <script type="text/javascript" src="/assets/js/main.js"></script>

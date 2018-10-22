@@ -550,6 +550,7 @@ a {
     .table-wrap .table.table-bordered tbody tr td:last-child {
       border-right: 0; }
   .table-wrap .table.table-write {
+    table-layout: auto !important;
     border-color: #292929; }
     .table-wrap .table.table-write tbody tr th {
       width: 170px;
@@ -870,8 +871,7 @@ a {
     padding: 0 15px; }
 
 .board-view .view-head {
-  border-top: 2px solid #292929;
-  border-bottom: 1px solid #dfdfdf; }
+  border-top: 2px solid #292929; }
   .board-view .view-head > h4 {
     font-size: 16px;
     color: #333;
@@ -900,6 +900,9 @@ a {
       .board-view .view-head > ul > li:last-child:after {
         content: "";
         margin: 0; }
+  .board-view .view-head .table-wrap .table {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 0; }
 .board-view .view-body {
   font-size: 14px;
   color: #666;

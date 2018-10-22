@@ -284,6 +284,11 @@
 //뉴스리스트
 .news-list {
     .section-content {
+        .search-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
         .default-board {
             margin-top: 25px;
         }

@@ -316,6 +316,8 @@ a {
     display: block;
     margin: 0 auto; }
 
+.news-list .section-content .search-form .form-group {
+  padding-left: 0; }
 .news-list .section-content .default-board {
   margin-top: 25px; }
 .news-list .section-content .paging {

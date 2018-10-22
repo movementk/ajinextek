@@ -315,6 +315,32 @@
                                     </dl>
                                 </li>
                             </ul>
+                            <div class="table-wrap">
+                                <table class="table write-table">
+                                    <tbody>
+                                        <tr>
+                                            <th>성명</th>
+                                            <td>홍길동</td>
+                                        </tr>
+                                        <tr>
+                                            <th>업체명</th>
+                                            <td>주식회사 아진엑스텍</td>
+                                        </tr>
+                                        <tr>
+                                            <th>전화번호</th>
+                                            <td>010-1111-1111</td>
+                                        </tr>
+                                        <tr>
+                                            <th>이메일</th>
+                                            <td>hong@naver.com</td>
+                                        </tr>
+                                        <tr>
+                                            <th>제품분야</th>
+                                            <td>BOARD(Module)</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                         <div class="view-body">
                             게시판 상세 내용<br>

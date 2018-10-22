@@ -463,6 +463,13 @@
 // 아진소식 리스트
 .news-list {
     .section-content {
+        .search-form {
+            .form-group {
+                .form-control {
+                    width: 100%;
+                }
+            }
+        }
         .board-type01 {
             margin-top: 60px;
         }
@@ -698,41 +705,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

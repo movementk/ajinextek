@@ -527,6 +527,8 @@ a {
           display: inline;
           font-weight: 400;
           line-height: 28px; }
+  .board-view .view-head .table-wrap .table {
+    border: 0 !important; }
   .board-view .view-body {
     font-size: 13px;
     color: #666;

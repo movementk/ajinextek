@@ -227,14 +227,47 @@ a {
             .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a img {
               width: 14px; }
 
+.qna-list .section-content .search-form .form-group {
+  padding-left: 0; }
 .qna-list .section-content .default-board {
   margin-top: 30px; }
+  .qna-list .section-content .default-board ul li a dl dd .success {
+    display: inline-block;
+    font-weight: 300;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #ccc; }
+  .qna-list .section-content .default-board ul li a dl dd .waiting {
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 300;
+    color: #333;
+    border: 1px solid #ccc; }
 .qna-list .section-content .btn-area {
   text-align: center;
   margin-top: 30px; }
 .qna-list .section-content .paging {
   margin-top: 25px; }
 
+.qna-view .section-content .board-view .reply {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 15px 40px;
+  border: 1px solid #dfdfdf;
+  background-color: #fafafc; }
+  .qna-view .section-content .board-view .reply h5 {
+    position: relative;
+    font-size: 12px;
+    color: #df0603;
+    display: inline-block;
+    font-weight: 400; }
+  .qna-view .section-content .board-view .reply p {
+    font-size: 11px;
+    color: #666;
+    margin-top: 20px;
+    font-weight: 300;
+    line-height: 16px;
+    word-break: keep-all; }
 .qna-view .section-content .btn-area {
   margin-top: 30px; }
 .qna-view .section-content .pagelink {
@@ -246,6 +279,32 @@ a {
   height: 160px !important; }
 .qna-write .section-content .table-wrap .btn-area, .request-wirte .section-content .table-wrap .btn-area {
   margin-top: 30px; }
+.qna-write .section-content .privacy, .request-wirte .section-content .privacy {
+  margin-top: 30px;
+  width: 100%;
+  color: #333;
+  padding: 30px 10px;
+  height: 150px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+  background-color: #efefef; }
+  .qna-write .section-content .privacy h3, .request-wirte .section-content .privacy h3 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 20px; }
+  .qna-write .section-content .privacy .privacy-content, .request-wirte .section-content .privacy .privacy-content {
+    color: #666;
+    font-weight: 300;
+    line-height: 18px; }
+  .qna-write .section-content .privacy label, .request-wirte .section-content .privacy label {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400; }
+    .qna-write .section-content .privacy label input, .request-wirte .section-content .privacy label input {
+      margin-right: 5px;
+      position: relative;
+      top: 2px; }
 
 .faq-list .section-content .search-area .search-guide {
   padding: 25px 15px;
@@ -266,8 +325,10 @@ a {
   margin: 20px 0;
   padding: 0;
   background: none; }
-  .faq-list .section-content .search-area .search-form .form-group .default-search {
-    background-color: #646464; }
+  .faq-list .section-content .search-area .search-form .form-group {
+    padding-left: 0; }
+    .faq-list .section-content .search-area .search-form .form-group .default-search {
+      background-color: #646464; }
 .faq-list .section-content .tab-menu {
   text-align: center; }
   .faq-list .section-content .tab-menu > ul {
@@ -300,8 +361,24 @@ a {
 .faq-list .section-content .paging {
   margin-top: 30px; }
 
+.request-list .section-content .search-form .form-group {
+  padding-left: 0; }
 .request-list .section-content .default-board {
   margin-top: 30px; }
+  .request-list .section-content .default-board ul li a dl dd .success {
+    display: inline-block;
+    font-weight: 300;
+    padding: 0 10px;
+    color: #fff;
+    background-color: #ccc; }
+  .request-list .section-content .default-board ul li a dl dd .waiting {
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 300;
+    color: #333;
+    border: 1px solid #ccc; }
+.request-list .section-content .btn-area {
+  margin-top: 25px; }
 .request-list .section-content .paging {
   margin-top: 25px; }
 

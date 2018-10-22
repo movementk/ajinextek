@@ -498,6 +498,11 @@
                 }
             }
         }
+        .table-wrap {
+            .table {
+                border: 0 !important;
+            }
+        }
     }
     .view-body {
         font-size: 13px;
