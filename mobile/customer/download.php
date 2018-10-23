@@ -216,7 +216,7 @@
                                                 <tbody>
                                                     <tr>
                                                         <td>
-                                                            EzSoftware AXT V1.9.0.0001
+                                                            <a href="#details-popup" data-toggle="modal" data-target="#details-popup">EzSoftware AXT V1.9.0.0001</a>
                                                             <a href="#">
                                                                 <img src="/mobile/assets/images/customer/ico_down.gif" alt="download">
                                                             </a>
@@ -356,7 +356,23 @@
             </section>
         </div>
     </main>
-
+    
+    <!-- main-popup -->
+    <div class="modal fade" id="details-popup" tabindex="-1" role="dialog" aria-labelledby="main-popupLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-head">
+                    <button type="button" class="btn btn-secondary btn-close" data-dismiss="modal">
+                        <img src="/mobile/assets/images/ico_modal_close.png" alt="">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Content 내용
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/footer.php'); ?>
     <?php require_once($_SERVER['DOCUMENT_ROOT'].'/mobile/inc/docfoot.php'); ?>
 </body>

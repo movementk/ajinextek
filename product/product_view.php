@@ -278,7 +278,7 @@
                                                 </tbody>
                                             </table>
                                         </div>
-                                        <h5>CATAKOGUE</h5>
+                                        <h5>CATAKOGUE <a href="#">MORE</a></h5>
                                         <table class="table table-bordered">
                                             <colgroup>
                                                 <col style="width: 200px">

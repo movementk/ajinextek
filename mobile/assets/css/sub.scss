@@ -833,3 +833,126 @@
         margin-right: 5px;
     }
 }
+
+// search-result
+.search-result {
+    .section-content {
+        .search-form {
+            .form-group {
+                padding-left: 0;
+            }
+        }
+        .result {
+            margin-top: 20px;
+            .keywords {
+                text-align: center;
+                font-size: 13px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 40px;
+                b {
+                    display: inline-block;
+                    color: #4a90e2;
+                    &:before {
+                        content: "' ";
+                    }
+                    &:after {
+                        content: " '";
+                    }
+                }
+            }
+            > ul {
+                > li {
+                    padding: 40px 10px;
+                    border-bottom: 1px solid #dfdfdf;
+                    &:first-child {
+                        border-top: 1px solid #dfdfdf;
+                    }
+                    .product-item {
+                        > a {
+                            display: block;
+                            figure {
+                                padding: 0 5%;
+                                .img-fluid {
+                                    width: 100%;
+                                }
+                            }
+                            .summary {
+                                margin-top: 25px;
+                                text-align: center;
+                                h4 {
+                                    font-size: 16px;
+                                    color: #0c3c8e;
+                                    font-weight: 600;
+                                    @include maven();
+                                }
+                                p {
+                                    font-size: 12px;
+                                    color: #757575;
+                                    line-height: 18px;
+                                    margin-top: 10px;
+                                }
+                            }
+                        }
+                    }
+                    .btn-area {
+                        margin-top: 25px;
+                        font-size: 0;
+                        .btn-md {
+                            font-size: 14px;
+                            color: #fff;
+                            width: 48%;
+                            line-height: 36px;
+                            font-weight: 300;
+                            text-align: center;
+                            margin-right: 4%;
+                            &:last-child {
+                                margin-right: 0;
+                            }
+                            &:before {
+                                font-family: "fontello";
+                                margin-right: 10px;
+                            }
+                            &.btn-blue {
+                                background-color: #4c91e2;
+                                &:before {
+                                    content: "\E809";
+                                }
+                            }
+                            &.btn-gray {
+                                background-color: #929292;
+                                &:before {
+                                    content: "\E80E";
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

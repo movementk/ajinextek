@@ -217,14 +217,16 @@ a {
           font-family: 'Maven Pro', sans-serif;
           border: 0;
           border-bottom: 1px solid #d6d6d6; }
-          .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td:before {
-            font-family: "fontello";
-            content: "\E801";
-            color: #4a90e2;
-            margin-right: 5px; }
-          .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a {
+          .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a:first-child {
+            float: left; }
+            .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a:first-child:before {
+              font-family: "fontello";
+              content: "\E801";
+              color: #4a90e2;
+              margin-right: 5px; }
+          .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a:last-child {
             float: right; }
-            .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a img {
+            .download .section-content .software-list .accordion .card .card-body .table-wrap .table tbody tr td > a:last-child img {
               width: 14px; }
 
 .qna-list .section-content .search-form .form-group {
@@ -280,22 +282,23 @@ a {
 .qna-write .section-content .table-wrap .btn-area, .request-wirte .section-content .table-wrap .btn-area {
   margin-top: 30px; }
 .qna-write .section-content .privacy, .request-wirte .section-content .privacy {
-  margin-top: 30px;
-  width: 100%;
-  color: #333;
-  padding: 30px 10px;
-  height: 150px;
-  border: 1px solid #ccc;
-  overflow-y: scroll;
-  background-color: #efefef; }
-  .qna-write .section-content .privacy h3, .request-wirte .section-content .privacy h3 {
-    font-size: 15px;
+  margin-top: 30px; }
+  .qna-write .section-content .privacy > div, .request-wirte .section-content .privacy > div {
+    width: 100%;
     color: #333;
-    margin-bottom: 20px; }
-  .qna-write .section-content .privacy .privacy-content, .request-wirte .section-content .privacy .privacy-content {
-    color: #666;
-    font-weight: 300;
-    line-height: 18px; }
+    padding: 30px 10px;
+    height: 150px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    background-color: #efefef; }
+    .qna-write .section-content .privacy > div h3, .request-wirte .section-content .privacy > div h3 {
+      font-size: 15px;
+      color: #333;
+      margin-bottom: 20px; }
+    .qna-write .section-content .privacy > div .privacy-content, .request-wirte .section-content .privacy > div .privacy-content {
+      color: #666;
+      font-weight: 300;
+      line-height: 18px; }
   .qna-write .section-content .privacy label, .request-wirte .section-content .privacy label {
     margin-top: 20px;
     font-size: 13px;
@@ -409,5 +412,25 @@ a {
     margin-top: 20px;
     line-height: 55px;
     background-color: #0c3c8e; }
+
+#details-popup .modal-dialog {
+  max-width: 700px;
+  margin-top: 120px;
+  margin-bottom: 200px; }
+  #details-popup .modal-dialog .modal-content {
+    border: 0;
+    border-radius: 0;
+    background: none; }
+    #details-popup .modal-dialog .modal-content .modal-head {
+      overflow: hidden;
+      padding-bottom: 10px; }
+      #details-popup .modal-dialog .modal-content .modal-head .btn-close {
+        outline: none;
+        border: 0;
+        float: right;
+        opacity: 1 !important; }
+    #details-popup .modal-dialog .modal-content .modal-body {
+      padding: 30px 15px;
+      background-color: #fff; }
 
 /*# sourceMappingURL=customer.css.map */

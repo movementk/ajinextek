@@ -458,6 +458,14 @@
             & ~ h4 {
                 margin-top: 50px;
             }
+            a {
+                float: right;
+                font-size: 12px;
+                color: #666;
+                &:before {
+                    content: "+ ";
+                }
+            }
         }
         .table-wrap {
             margin-top: 25px;

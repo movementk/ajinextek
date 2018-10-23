@@ -1119,3 +1119,40 @@
         }
     }
 }
+
+// search-result
+.search-result {
+    .section-content {
+        .search-form {
+            .form-group {
+                .form-control {
+                    width: 100%;
+                }
+            }
+        }
+        .result {
+            margin-top: 40px;
+            .keywords {
+                text-align: center;
+                font-size: 24px;
+                color: #333;
+                font-weight: 400;
+                margin-bottom: 80px;
+                b {
+                    display: inline-block;
+                    color: #4a90e2;
+                    &:before {
+                        content: "' ";
+                    }
+                    &:after {
+                        content: " '";
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+

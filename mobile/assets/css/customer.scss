@@ -128,16 +128,21 @@
                                             @include maven();
                                             border: 0;
                                             border-bottom: 1px solid #d6d6d6;
-                                            &:before {
-                                                font-family: "fontello";
-                                                content: "\E801";
-                                                color: #4a90e2;
-                                                margin-right: 5px;
-                                            }
                                             > a {
-                                                float: right;
-                                                img {
-                                                    width: 14px;
+                                                &:first-child {
+                                                    float: left;
+                                                    &:before {
+                                                        font-family: "fontello";
+                                                        content: "\E801";
+                                                        color: #4a90e2;
+                                                        margin-right: 5px;
+                                                    }
+                                                }
+                                                &:last-child {
+                                                    float: right;
+                                                    img {
+                                                        width: 14px;
+                                                    }
                                                 }
                                             }
                                         }
@@ -259,22 +264,24 @@
         }
         .privacy {
             margin-top: 30px;
-            width: 100%;
-            color: #333;
-            padding: 30px 10px;
-            height: 150px;
-            border: 1px solid #ccc;
-            overflow-y: scroll;
-            background-color: #efefef;
-            h3 {
-                font-size: 15px;
+            > div {
+                width: 100%;
                 color: #333;
-                margin-bottom: 20px;
-            }
-            .privacy-content {
-                color: #666;
-                font-weight: 300;
-                line-height: 18px;
+                padding: 30px 10px;
+                height: 150px;
+                border: 1px solid #ccc;
+                overflow-y: scroll;
+                background-color: #efefef;
+                h3 {
+                    font-size: 15px;
+                    color: #333;
+                    margin-bottom: 20px;
+                }
+                .privacy-content {
+                    color: #666;
+                    font-weight: 300;
+                    line-height: 18px;
+                }
             }
             label {
                 margin-top: 20px;
@@ -477,6 +484,33 @@
                 margin-top: 20px;
                 line-height: 55px;
                 background-color: #0c3c8e;
+            }
+        }
+    }
+}
+
+#details-popup {
+    .modal-dialog {
+        max-width: 700px;
+        margin-top: 120px;
+        margin-bottom: 200px;
+        .modal-content {
+            border: 0;
+            border-radius: 0;
+            background: none;
+            .modal-head {
+                overflow: hidden;
+                padding-bottom: 10px;
+                .btn-close {
+                    outline: none;
+                    border: 0;
+                    float: right;
+                    opacity: 1 !important;
+                }
+            }
+            .modal-body {
+                padding: 30px 15px;
+                background-color: #fff;
             }
         }
     }

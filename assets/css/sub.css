@@ -999,4 +999,22 @@ a {
     .page-link-area > li.next > dl dt:after {
       content: "\E809"; }
 
+.search-result .section-content .search-form .form-group .form-control {
+  width: 100%; }
+.search-result .section-content .result {
+  margin-top: 40px; }
+  .search-result .section-content .result .keywords {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    font-weight: 400;
+    margin-bottom: 80px; }
+    .search-result .section-content .result .keywords b {
+      display: inline-block;
+      color: #4a90e2; }
+      .search-result .section-content .result .keywords b:before {
+        content: "' "; }
+      .search-result .section-content .result .keywords b:after {
+        content: " '"; }
+
 /*# sourceMappingURL=sub.css.map */

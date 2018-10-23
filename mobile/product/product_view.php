@@ -257,7 +257,7 @@
                             </table>
                         </div>
                         <p class="attention">attention text</p>
-                        <h4>SOFTWARE</h4>
+                        <h4>SOFTWARE <a href="#">MORE</a></h4>
                         <div class="table-wrap type-2">
                             <table class="table">
                                 <tbody>
