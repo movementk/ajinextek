@@ -513,8 +513,8 @@ a {
           letter-spacing: -1px;
           font-family: 'Maven Pro', sans-serif; }
         .ajine-news .container article.new-products .article-content .new-products-slide li a {
-          display: table;
           width: 100%;
+          display: block;
           padding: 20px 0 25px; }
           .ajine-news .container article.new-products .article-content .new-products-slide li a figure {
             vertical-align: middle;
