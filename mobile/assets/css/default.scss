@@ -275,6 +275,7 @@ body {
                 @include transition();
                 > li {
                     > a {
+                        display: block;
                         font-size: 14px;
                         font-weight: 300;
                         line-height: 40px;

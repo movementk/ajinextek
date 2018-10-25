@@ -105,6 +105,9 @@
                                     <img src="/mobile/assets/images/main/img_product01.png" class="img-fluid" alt="">
                                 </figure>
                             </div>
+                            <div class="btn-area">
+								<a href="#" class="btn btn-lg btn-more" role="button">자세히보기</a>
+							</div>
                         </li>
                         <li class="p-slide">
                             <!--<h3>MOTION CHIP2</h3>-->
@@ -119,6 +122,9 @@
                                     <img src="/mobile/assets/images/main/img_product01.png" class="img-fluid" alt="">
                                 </figure>
                             </div>
+                            <div class="btn-area">
+								<a href="#" class="btn btn-lg btn-more" role="button">자세히보기</a>
+							</div>
                         </li>
                         <li class="p-slide">
                             <!--<h3>MOTION CHIP3</h3>-->
@@ -133,6 +139,9 @@
                                     <img src="/mobile/assets/images/main/img_product01.png" class="img-fluid" alt="">
                                 </figure>
                             </div>
+                            <div class="btn-area">
+								<a href="#" class="btn btn-lg btn-more" role="button">자세히보기</a>
+							</div>
                         </li>
                     </ul>
                 </div>

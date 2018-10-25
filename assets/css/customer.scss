@@ -366,6 +366,11 @@
                                             color: #4c91e2;
                                         }
                                     }
+                                    > p {
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        color: #4c91e2;
+                                    }
                                     &.collapsed {
                                         &:after {
                                             color: #000;
@@ -384,6 +389,10 @@
                                                 font-weight: 300;
                                                 color: #000;
                                             }
+                                        }
+                                        > p {
+                                            font-weight: 300;
+                                            color: #000;
                                         }
                                     }
                                 }
@@ -553,6 +562,10 @@
                                 a {
                                     padding: 0;
                                     display: inline-block;
+                                    img {
+                                        width: 22px;
+                                        height: auto;
+                                    }
                                 }
                             }
                         }
@@ -890,3 +903,131 @@
         }
     }
 }
+
+// 기술용어
+.technical-terms {
+    .section-header {
+        p {
+            font-size: 18px;
+            color: #282828;
+            line-height: 30px;
+            font-weight: 400;
+            margin-top: 45px;
+        }
+    }
+    .section-content {
+        .spelling-tab {
+            padding: 30px;
+            background-color: #f5f5f5;
+            ol {
+                overflow: hidden;
+                li {
+                    float: left;
+                    margin-right: 5px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    a {
+                        width: 34px;
+                        height: 34px;
+                        line-height: 32px;
+                        display: block;
+                        font-size: 14px;
+                        text-align: center;
+                        color: #666;
+                        border: 1px solid #e3e3e3;
+                        background-color: #fff;
+                        @include transition();
+                        &:hover {
+                            opacity: .7;
+                            color: #fff;
+                            border-color: #4a90e2;
+                            background-color: #4a90e2;
+                        }
+                    }
+                    &.active {
+                        a {
+                            color: #fff;
+                            border-color: #4a90e2;
+                            background-color: #4a90e2;
+                        }
+                    }
+                }
+                & ~ ol {
+                    margin-top: 10px;
+                }
+                &.kor {
+                    li {
+                        &:last-child {
+                            a {
+                                width: 68px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .table-wrap {
+            margin-top: 60px;
+            .table {
+                border: 0;
+                border-top: 1px solid #292929;
+                border-bottom: 1px solid #292929;
+                table-layout: fixed;
+                tbody {
+                    tr {
+                        th {
+                            font-weight: 400;
+                            font-size: 15px;
+                            width: 270px;
+                            vertical-align: middle;
+                            padding-left: 30px;
+                            @include maven();
+                            border-bottom: 1px solid #d6d6d6;
+                            background-color: #fafafc;
+                        }
+                        td {
+                            text-align: left;
+                            font-size: 14px;
+                            color: #666;
+                            line-height: 22px;
+                            word-break: keep-all;
+                            font-weight: 400;
+                            padding: 30px;
+                            @include maven();
+                            vertical-align: middle;
+                            border-bottom: 1px solid #d6d6d6;
+                        }
+                        &:last-child {
+                            th, td {
+                                border-bottom: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

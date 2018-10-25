@@ -225,7 +225,7 @@ a {
       .careers-info .welfare .table-wrap .table tr td {
         width: 195px;
         height: 156px;
-        cursor: pointer;
+        /*cursor: pointer;*/
         text-align: center;
         border: 0;
         border-bottom: 1px solid #1f4c97;

@@ -205,16 +205,21 @@
                                                 <div>
                                                     <h3><a href="/customer/qna_list.php"><span>Q&amp;A</span></a></h3>
                                                 </div>
+                                                <div>
+                                                    <h3><a href="/customer/technical_terms.php">기술용어</a></h3>
+                                                </div>
                                             </li>
                                             <li>
                                                 <div>
                                                     <h3><a href="/customer/faq_list.php"><span>FAQ</span></a></h3>
                                                 </div>
+                                                <div>
+                                                    <h3><a href="/customer/solution01.php">솔루션</a></h3>
+                                                </div>
                                             </li>
                                             <li>
                                                 <div>
-                                                    <h3><a href="/customer/request_list.php"
-                                                    >견적요청</a></h3>
+                                                    <h3><a href="/customer/request_list.php">견적요청</a></h3>
                                                 </div>
                                             </li>
                                         </ul>

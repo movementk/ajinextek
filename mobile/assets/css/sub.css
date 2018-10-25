@@ -1,19 +1,9 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700&subset=korean");
 @import url("https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 @import url("https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700");
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format("opentype"); }
-@font-face {
-  font-family: 'Noto Sans KR';
-  font-style: normal;
-  font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format("woff2"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format("woff"), url(//fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format("opentype"); }
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -410,6 +400,13 @@ a {
           font-weight: 400;
           color: #282828;
           word-break: keep-all; }
+        .faq-board .accordion .card .card-header > a h5 {
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 28px;
+          margin-left: 38px;
+          color: #282828;
+          word-break: keep-all; }
         .faq-board .accordion .card .card-header > a.collapsed:before {
           color: #666;
           background-color: #f4f4f4; }
@@ -455,7 +452,7 @@ a {
       border-top: 2px solid #154392;
       border-bottom: 2px solid #555; }
       .table-wrap .table.write-table tbody tr th {
-        width: 70px;
+        width: 80px;
         border: 0;
         font-size: 13px;
         font-weight: 400;
@@ -466,6 +463,9 @@ a {
         background-color: #f7f8f9; }
         .table-wrap .table.write-table tbody tr th label {
           font-weight: 400; }
+        .table-wrap .table.write-table tbody tr th:before {
+          content: "* ";
+          color: #e25371; }
       .table-wrap .table.write-table tbody tr td {
         vertical-align: middle;
         padding: 10px 15xp;

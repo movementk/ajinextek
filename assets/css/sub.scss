@@ -544,6 +544,10 @@
                         width: 170px;
                         text-align: left;
                         background-color: #fafafc;
+                        &:before {
+                            content: "* ";
+                            color: #e25371;
+                        }
                         label {
                             
                         }

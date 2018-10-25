@@ -556,6 +556,9 @@ a {
       width: 170px;
       text-align: left;
       background-color: #fafafc; }
+      .table-wrap .table.table-write tbody tr th:before {
+        content: "* ";
+        color: #e25371; }
     .table-wrap .table.table-write tbody tr td {
       padding: 10px 30px;
       text-align: left; }

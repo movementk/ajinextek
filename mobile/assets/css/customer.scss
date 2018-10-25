@@ -264,6 +264,11 @@
         }
         .privacy {
             margin-top: 30px;
+            h3 {
+                font-size: 15px;
+                color: #333;
+                margin-bottom: 20px;
+            }
             > div {
                 width: 100%;
                 color: #333;
@@ -272,11 +277,11 @@
                 border: 1px solid #ccc;
                 overflow-y: scroll;
                 background-color: #efefef;
-                h3 {
+                /*h3 {
                     font-size: 15px;
                     color: #333;
                     margin-bottom: 20px;
-                }
+                }*/
                 .privacy-content {
                     color: #666;
                     font-weight: 300;

@@ -343,6 +343,14 @@
                         color: #282828;
                         word-break: keep-all;
                     }
+                    h5 {
+                        font-size: 13px;
+                        font-weight: 400;
+                        line-height: 28px;
+                        margin-left: 38px;
+                        color: #282828;
+                        word-break: keep-all;
+                    }
                     &.collapsed {
                         &:before {
                             color: #666;
@@ -403,7 +411,7 @@
             tbody {
                 tr {
                     th {
-                        width: 70px;
+                        width: 80px;
                         border: 0;
                         font-size: 13px;
                         font-weight: 400;
@@ -414,6 +422,10 @@
                         background-color: #f7f8f9;
                         label {
                             font-weight: 400;
+                        }
+                        &:before {
+                            content: "* ";
+                            color: #e25371;
                         }
                     }
                     td {
