@@ -102,7 +102,7 @@
                             <li><a href="#">X</a></li>
                             <li><a href="#">Y</a></li>
                             <li><a href="#">Z</a></li>
-                            <li><a href="#">기타</a></li>
+                            <li class="etc"><a href="#">기타</a></li>
                         </ul>
                     </div>
                 </div>

@@ -423,7 +423,8 @@ a {
         outline: none;
         border: 0;
         float: right;
-        opacity: 1 !important; }
+        opacity: 1 !important;
+        background: none !important; }
     #details-popup .modal-dialog .modal-content .modal-body {
       padding: 30px 15px;
       background-color: #fff; }
@@ -492,7 +493,7 @@ a {
             color: #666;
             background-color: #fff;
             border: 1px solid #e3e3e3; }
-          .spelling-tab .accordion .card .card-body ul li:last-child > a {
+          .spelling-tab .accordion .card .card-body ul li.etc > a {
             width: 76px; }
 
 .position-space {

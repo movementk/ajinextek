@@ -58,7 +58,7 @@
                             <li><a href="#">ㅌ</a></li>
                             <li><a href="#">ㅍ</a></li>
                             <li><a href="#">ㅎ</a></li>
-                            <li><a href="#">기타</a></li>
+                            <li class="etc"><a href="#">기타</a></li>
                         </ol>
                         <ol class="consonant eng">
                             <li><a href="#">A</a></li>

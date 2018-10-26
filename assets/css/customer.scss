@@ -894,6 +894,7 @@
                     border: 0;
                     float: right;
                     opacity: 1 !important;
+                    background: none !important;
                 }
             }
             .modal-body {
@@ -952,11 +953,16 @@
                             background-color: #4a90e2;
                         }
                     }
+                    &.etc {
+                        a {
+                            width: 68px;
+                        }
+                    }
                 }
                 & ~ ol {
                     margin-top: 10px;
                 }
-                &.kor {
+                /*&.kor {
                     li {
                         &:last-child {
                             a {
@@ -964,7 +970,7 @@
                             }
                         }
                     }
-                }
+                }*/
             }
         }
         .table-wrap {

@@ -750,7 +750,8 @@ a {
         outline: none;
         border: 0;
         float: right;
-        opacity: 1 !important; }
+        opacity: 1 !important;
+        background: none !important; }
     #details-popup .modal-dialog .modal-content .modal-body {
       padding: 30px 15px;
       background-color: #fff; }
@@ -765,7 +766,16 @@ a {
   padding: 30px;
   background-color: #f5f5f5; }
   .technical-terms .section-content .spelling-tab ol {
-    overflow: hidden; }
+    overflow: hidden;
+    /*&.kor {
+        li {
+            &:last-child {
+                a {
+                    width: 68px;
+                }
+            }
+        }
+    }*/ }
     .technical-terms .section-content .spelling-tab ol li {
       float: left;
       margin-right: 5px; }
@@ -798,10 +808,10 @@ a {
         color: #fff;
         border-color: #4a90e2;
         background-color: #4a90e2; }
+      .technical-terms .section-content .spelling-tab ol li.etc a {
+        width: 68px; }
     .technical-terms .section-content .spelling-tab ol ~ ol {
       margin-top: 10px; }
-    .technical-terms .section-content .spelling-tab ol.kor li:last-child a {
-      width: 68px; }
 .technical-terms .section-content .table-wrap {
   margin-top: 60px; }
   .technical-terms .section-content .table-wrap .table {
