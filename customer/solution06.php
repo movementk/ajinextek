@@ -44,26 +44,38 @@
                 <div class="section-content">
                     <nav class="solution-tabs">
                         <ul>
-                            <li class="active"><a href="/customer/solution01.php">반도체공정 분야</a></li>
+                            <li><a href="/customer/solution01.php">반도체공정 분야</a></li>
                             <li><a href="/customer/solution02.php">반도체 후공정 분야</a></li>
                             <li><a href="/customer/solution03.php">가공기 분야</a></li>
                             <li><a href="/customer/solution04.php">태양광 분야</a></li>
                             <li><a href="/customer/solution05.php">PCB/전자산업 분야</a></li>
-                            <li><a href="/customer/solution06.php">FPD 분야</a></li>
+                            <li class="active"><a href="/customer/solution06.php">FPD 분야</a></li>
                             <li><a href="/customer/solution07.php">LED 후공정 분야</a></li>
                         </ul>
                     </nav>
                     <article class="solution-list">
                         <ul class="row">
-                            <li class="col-6">
-                                <div class="solution-products">
+                            <li class="col-12">
+                                <div class="solution-products bonder">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SPINNER</h4>
-                                        <p>회전척상에 반도체 Wafer를 안착한 후 회전하는 Wafer상에 화학물질을 떨어뜨려 상기 화학물질이 고르게 공급되도록 하는 장비</p>
+                                        <h4>COG(Chip On Glass) /FOG(Film On Glass)BONDER</h4>
+                                        <p>Glass Panel에 Bare Die(IC)를 접착하는 방식이며, 많은 Bonding방법중의 하나로써  응용발전된 초박형, 경량화로 인해 접속 피치의미세화에 대응하는 새로운 실장방식, 즉 LCD의 Panel위에 ACF를 부착하고  BumpedIC에 일정한 압력과 온도로 Bonding하는 장비임</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product01.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product20.jpg" alt="">
+                                    </figure>
+                                </div>
+                            </li>
+                            <li class="col-6">
+                                <div class="solution-products space-top">
+                                    <div class="details">
+                                        <small>SOLUTION AREA</small>
+                                        <h4>LTR</h4>
+                                        <p>LTR(LCD Transfer Robot)로봇은 LCD 생산라인에서 사용되는 것으로, LCD생산 프로세스 중유리원판(Mother Glass)을 이동하는 과정에서발생할 수 있는 “휨 현상”을 차단하는 이송용 로봇임</p>
+                                    </div>
+                                    <figure>
+                                        <img src="/assets/images/customer/solution_product21.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -71,11 +83,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SCRUBBER</h4>
-                                        <p>브러쉬, 초음파, 고압 약품 그리고 순수를 사용하여 Wafer 위의 이물질을 제거하거나 거친 면을 고르게하는 장비</p>
+                                        <h4>LCD PIXEL INSPECTION</h4>
+                                        <p>Glass 표면위에 있는 불 특정한 결함, 얼룩을 Vision System과 Image Process기술을 응용 하여 검출하여 결함정보를 자동으로 분류 하고판정하는 검사장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product02.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product22.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -83,47 +95,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>WTR</h4>
-                                        <p>Wafer Transfer Robot은 반도체 제조 장비에 설치되어 로봇의 전후 혹은 좌우 등으로 Wafer 이송을 담당하는 로봇</p>
+                                        <h4>COF INSPECTION</h4>
+                                        <p>Film상의 회로를 보호하기 위해 커버 필름을 Sheet타입으로 절단, 비젼 시스템으로 위치추적 후 정밀 위치 보정하여 베이스 필름 상에 부착 및 라미네이팅 하는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product03.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </li>
-                            <li class="col-6">
-                                <div class="solution-products">
-                                    <div class="details">
-                                        <small>SOLUTION AREA</small>
-                                        <h4>WAFER FURNACE</h4>
-                                        <p>반도체 확산 공정에서 사용되는 장비로 고온의 전기로를 이용하여 고체 상태의 Wafer 표면 위에 필요한 불순물을 주입시키거나 산화막을 만드는 장비</p>
-                                    </div>
-                                    <figure>
-                                        <img src="/assets/images/customer/solution_product04.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </li>
-                            <li class="col-6">
-                                <div class="solution-products">
-                                    <div class="details">
-                                        <small>SOLUTION AREA</small>
-                                        <h4>PROBE STATION</h4>
-                                        <p>Wafer Chip의 전기적 특성을 검사하는 반도체 전공정 핵심 검사 장비로 반도체 칩 안의 패드에 미세한 바늘을 접촉시킨 후 검사기의 전기적 신호로 칩의 양품/불량을 검사하는 장비</p>
-                                    </div>
-                                    <figure>
-                                        <img src="/assets/images/customer/solution_product05.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </li>
-                            <li class="col-6">
-                                <div class="solution-products">
-                                    <div class="details">
-                                        <small>SOLUTION AREA</small>
-                                        <h4>WAFER TRACK</h4>
-                                        <p>반도체 포토 공정에 사용되는 설비로 Wafer 표면에 고집도 미세회로를 생성하기 위해 감광액을 도포하고, 현상 시키는 장비</p>
-                                    </div>
-                                    <figure>
-                                        <img src="/assets/images/customer/solution_product06.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product23.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>

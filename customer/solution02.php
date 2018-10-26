@@ -44,8 +44,8 @@
                 <div class="section-content">
                     <nav class="solution-tabs">
                         <ul>
-                            <li class="active"><a href="/customer/solution01.php">반도체공정 분야</a></li>
-                            <li><a href="/customer/solution02.php">반도체 후공정 분야</a></li>
+                            <li><a href="/customer/solution01.php">반도체공정 분야</a></li>
+                            <li class="active"><a href="/customer/solution02.php">반도체 후공정 분야</a></li>
                             <li><a href="/customer/solution03.php">가공기 분야</a></li>
                             <li><a href="/customer/solution04.php">태양광 분야</a></li>
                             <li><a href="/customer/solution05.php">PCB/전자산업 분야</a></li>
@@ -59,11 +59,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SPINNER</h4>
-                                        <p>회전척상에 반도체 Wafer를 안착한 후 회전하는 Wafer상에 화학물질을 떨어뜨려 상기 화학물질이 고르게 공급되도록 하는 장비</p>
+                                        <h4>SAW &amp; SORTER</h4>
+                                        <p>몰딩된 자재를 Vacuum Jig로 잡고 절단한 후 Cleanning, Dry하여 Vision 검사를 통한 양품 또는 불량품을 각각의 Tray 또는 Tube에 고속으로 적재시키는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product01.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product07.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -71,11 +71,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SCRUBBER</h4>
-                                        <p>브러쉬, 초음파, 고압 약품 그리고 순수를 사용하여 Wafer 위의 이물질을 제거하거나 거친 면을 고르게하는 장비</p>
+                                        <h4>MEMORY HANDLER</h4>
+                                        <p>Module Memory 생산 공정에서 필요한 핸들러 일체형 구조의 전용 외관 검사 장비로 2D, 3D 검사 및 기판의 양면 검사가 동시에 가능한 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product02.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product08.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -83,11 +83,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>WTR</h4>
-                                        <p>Wafer Transfer Robot은 반도체 제조 장비에 설치되어 로봇의 전후 혹은 좌우 등으로 Wafer 이송을 담당하는 로봇</p>
+                                        <h4>LASER MARKING</h4>
+                                        <p>Laser Marking Head를 장착하여 반도체 패키지 윗면에 문자 또는 로고를 Marking 하는 장비로서 여러 종류의 LeadFrame을 자동으로 Loading, Feeding, Unloading, Inspection을 수행하는 핸들러 시스템</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product03.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product09.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -95,11 +95,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>WAFER FURNACE</h4>
-                                        <p>반도체 확산 공정에서 사용되는 장비로 고온의 전기로를 이용하여 고체 상태의 Wafer 표면 위에 필요한 불순물을 주입시키거나 산화막을 만드는 장비</p>
+                                        <h4>BALL BUMPING M/C</h4>
+                                        <p>BGA 또는 CSP계열 패키지의 회로기판 혹은 Wafer 위에 Solder ball을 부착시키는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product04.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product10.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -107,23 +107,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>PROBE STATION</h4>
-                                        <p>Wafer Chip의 전기적 특성을 검사하는 반도체 전공정 핵심 검사 장비로 반도체 칩 안의 패드에 미세한 바늘을 접촉시킨 후 검사기의 전기적 신호로 칩의 양품/불량을 검사하는 장비</p>
+                                        <h4>CHIP INSPECTION</h4>
+                                        <p>소형 부품의 외관에 발생하는 다양한 불량 유형들에 대하여 고속, 정밀하게 검사하는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product05.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </li>
-                            <li class="col-6">
-                                <div class="solution-products">
-                                    <div class="details">
-                                        <small>SOLUTION AREA</small>
-                                        <h4>WAFER TRACK</h4>
-                                        <p>반도체 포토 공정에 사용되는 설비로 Wafer 표면에 고집도 미세회로를 생성하기 위해 감광액을 도포하고, 현상 시키는 장비</p>
-                                    </div>
-                                    <figure>
-                                        <img src="/assets/images/customer/solution_product06.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product11.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>

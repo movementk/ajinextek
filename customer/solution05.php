@@ -44,11 +44,11 @@
                 <div class="section-content">
                     <nav class="solution-tabs">
                         <ul>
-                            <li class="active"><a href="/customer/solution01.php">반도체공정 분야</a></li>
+                            <li><a href="/customer/solution01.php">반도체공정 분야</a></li>
                             <li><a href="/customer/solution02.php">반도체 후공정 분야</a></li>
                             <li><a href="/customer/solution03.php">가공기 분야</a></li>
                             <li><a href="/customer/solution04.php">태양광 분야</a></li>
-                            <li><a href="/customer/solution05.php">PCB/전자산업 분야</a></li>
+                            <li class="active"><a href="/customer/solution05.php">PCB/전자산업 분야</a></li>
                             <li><a href="/customer/solution06.php">FPD 분야</a></li>
                             <li><a href="/customer/solution07.php">LED 후공정 분야</a></li>
                         </ul>
@@ -59,11 +59,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SPINNER</h4>
-                                        <p>회전척상에 반도체 Wafer를 안착한 후 회전하는 Wafer상에 화학물질을 떨어뜨려 상기 화학물질이 고르게 공급되도록 하는 장비</p>
+                                        <h4>SCREEN PRINTER</h4>
+                                        <p>인쇄회로기판(PCB)에 부품을 장착하기전 솔더 크림을 다양한 Mask를 사용하여 정밀하게도포 하는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product01.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product15.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -71,11 +71,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>SCRUBBER</h4>
-                                        <p>브러쉬, 초음파, 고압 약품 그리고 순수를 사용하여 Wafer 위의 이물질을 제거하거나 거친 면을 고르게하는 장비</p>
+                                        <h4>LCD SORTER</h4>
+                                        <p>다양한 종류의 LED들에 대해서 자동으로 Die sorting 하는 장비로서 Wafer에서 Led Chip을 집어 측정/검사하여 사용자가 미리 설정한 조건에 따라 해당 Bin으로 보내는 장비.</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product02.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product16.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -83,11 +83,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>WTR</h4>
-                                        <p>Wafer Transfer Robot은 반도체 제조 장비에 설치되어 로봇의 전후 혹은 좌우 등으로 Wafer 이송을 담당하는 로봇</p>
+                                        <h4>PCB INSPECTION</h4>
+                                        <p>PCB 생산라인에서 부품을 장착하고 납땜이 완성된 이후에 부품의 장착 상태와 납땝 상태를 자동으로 검사하여 불량을 찾아내며, 부가적으로 생산 공정상의 각종 통계 자료를 제공함으로써 불량의 내용과 원인을 명확하게 파악하도록 지원하는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product03.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product17.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -95,11 +95,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>WAFER FURNACE</h4>
-                                        <p>반도체 확산 공정에서 사용되는 장비로 고온의 전기로를 이용하여 고체 상태의 Wafer 표면 위에 필요한 불순물을 주입시키거나 산화막을 만드는 장비</p>
+                                        <h4>RFID CHIP BONDER</h4>
+                                        <p>RFID Antenna에 Chip을 접착하는 방식이며,많은 Bonding방법중의 하나로써 응용 발전된초박형, 경량화로 인해 접속 피치의 미세화에 대응하는 새로운 실장방식의 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product04.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product18.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
@@ -107,23 +107,11 @@
                                 <div class="solution-products">
                                     <div class="details">
                                         <small>SOLUTION AREA</small>
-                                        <h4>PROBE STATION</h4>
-                                        <p>Wafer Chip의 전기적 특성을 검사하는 반도체 전공정 핵심 검사 장비로 반도체 칩 안의 패드에 미세한 바늘을 접촉시킨 후 검사기의 전기적 신호로 칩의 양품/불량을 검사하는 장비</p>
+                                        <h4>LENS INSPECTION</h4>
+                                        <p>휴대폰용 COF타입 카메라 모듈의 제조 공정중 Flexible PCB를 부착한 후의 회로 연결상태 및 초점 조정상태를 테스트 하는 장비</p>
                                     </div>
                                     <figure>
-                                        <img src="/assets/images/customer/solution_product05.jpg" alt="">
-                                    </figure>
-                                </div>
-                            </li>
-                            <li class="col-6">
-                                <div class="solution-products">
-                                    <div class="details">
-                                        <small>SOLUTION AREA</small>
-                                        <h4>WAFER TRACK</h4>
-                                        <p>반도체 포토 공정에 사용되는 설비로 Wafer 표면에 고집도 미세회로를 생성하기 위해 감광액을 도포하고, 현상 시키는 장비</p>
-                                    </div>
-                                    <figure>
-                                        <img src="/assets/images/customer/solution_product06.jpg" alt="">
+                                        <img src="/assets/images/customer/solution_product19.jpg" alt="">
                                     </figure>
                                 </div>
                             </li>
