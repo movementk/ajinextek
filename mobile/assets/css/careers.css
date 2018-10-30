@@ -173,22 +173,23 @@ a {
             margin-top: 8px; }
 .careers-info .title {
   font-size: 18px;
-  color: #fff;
+  color: #333;
   font-weight: 400; }
   .careers-info .title:before {
     content: "";
     display: inline-block;
     width: 2px;
     height: 15px;
-    background-color: #fff;
+    background-color: #5c9be5;
     margin-right: 10px; }
 .careers-info .infomation {
   padding-top: 55px;
   padding-bottom: 45px;
-  background-image: url(/mobile/assets/images/careers/bg_infomation.jpg);
+  /*background-image: url(/mobile/assets/images/careers/bg_infomation.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
-  background-size: cover; }
+  background-size: cover;*/
+  background-color: #f0f0f0; }
   .careers-info .infomation .section-header {
     padding: 0;
     text-align: left; }
@@ -203,6 +204,8 @@ a {
       margin-left: 10px; }
     .careers-info .infomation .section-content > ul > li:nth-of-type(2) ~ li .steps {
       margin-top: 30px; }
+    .careers-info .infomation .section-content > ul > li:last-child .steps {
+      background-color: #f36f21; }
     .careers-info .infomation .section-content > ul > li .steps {
       display: table;
       width: 105px;
@@ -248,19 +251,19 @@ a {
           width: 19px;
           height: 19px;
           font-size: 12px;
-          color: #000;
+          color: #fff;
           font-weight: bold;
           line-height: 19px;
           text-align: center;
           border-radius: 50%;
-          background-color: #fff;
+          background-color: #4a90e2;
           font-family: 'Lato', sans-serif; }
         .careers-info .infomation .section-content .summary > li dl {
           font-size: 0; }
           .careers-info .infomation .section-content .summary > li dl dt {
             display: inline-block;
             font-size: 13px;
-            color: #fff;
+            color: #333;
             font-weight: 400; }
             .careers-info .infomation .section-content .summary > li dl dt:after {
               content: ":";
@@ -268,7 +271,7 @@ a {
           .careers-info .infomation .section-content .summary > li dl dd {
             display: inline;
             font-size: 13px;
-            color: #fff;
+            color: #333;
             font-weight: 300;
             line-height: 20px; }
 .careers-info .systems {
