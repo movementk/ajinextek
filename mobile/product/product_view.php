@@ -277,6 +277,63 @@
                         content-3
                     </div>-->
                 </div>
+                <article class="accessory">
+                    <div class="article-header">
+                        <h4>액세서리</h4>
+                    </div>
+                    <div class="article-content">
+                        <ul class="row">
+                            <li class="col-6">
+                                <a href="#">
+                                    <div class="accessory-item">
+                                        <figure>
+                                            <img src="/mobile/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h5>액세서리 제목<br>액세서리 제목1</h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6">
+                                <a href="#">
+                                    <div class="accessory-item">
+                                        <figure>
+                                            <img src="/mobile/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h5>액세서리 제목</h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6">
+                                <a href="#">
+                                    <div class="accessory-item">
+                                        <figure>
+                                            <img src="/mobile/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h5>액세서리 제목</h5>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="col-6">
+                                <a href="#">
+                                    <div class="accessory-item">
+                                        <figure>
+                                            <img src="/mobile/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                        </figure>
+                                    </div>
+                                    <div class="details">
+                                        <h5>액세서리 제목</h5>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
                 <div class="btn-prev">
                     <p>
                         <a href="#" class="btn btn-lg btn-gray" role="button">목록으로</a>

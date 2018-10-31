@@ -528,6 +528,9 @@
 .news-view {
     .section-content {
         .view-content {
+            .view-head {
+                border-bottom: 1px solid #dfdfdf;
+            }
             .btn-area {
                 margin: 30px 0 80px;
                 p {
@@ -660,6 +663,7 @@
             }
             &.logo-type {
                 .article-content {
+                    min-height: 396px;
                     padding: 160px 0 30px;
                     text-align: center;
                     background-image: url(/assets/images/introduction/bg_ci.gif);

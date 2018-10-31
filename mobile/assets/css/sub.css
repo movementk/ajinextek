@@ -466,6 +466,8 @@ a {
         .table-wrap .table.write-table tbody tr th:before {
           content: "* ";
           color: #e25371; }
+        .table-wrap .table.write-table tbody tr th.file:before {
+          display: none; }
       .table-wrap .table.write-table tbody tr td {
         vertical-align: middle;
         padding: 10px 15xp;

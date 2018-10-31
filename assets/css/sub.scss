@@ -548,8 +548,10 @@
                             content: "* ";
                             color: #e25371;
                         }
-                        label {
-                            
+                        &.file {
+                            &:before {
+                                display: none;
+                            }
                         }
                     }
                     td {
@@ -593,20 +595,38 @@
                             }
                         }
                         &.file {
-                            .form-control {
-                                margin: 0;
-                            }
-                            label {
-                                cursor: pointer;
-                                width: 110px;
-                                font-size: 13px;
-                                height: 35px;
-                                text-align: center;
-                                line-height: 33px;
-                                color: #666;
-                                margin-left: 10px;
-                                border: 1px solid #dfdfdf;
-                                background-color: #f6f6f8;
+                            .form-group {
+                                position: relative;
+                                .file {
+                                    width: 100%;
+                                }
+                                .form-control {
+                                    background-color: #fff !important;
+                                }
+                                input[type='button'] {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 360px;
+                                    cursor: pointer;
+                                    width: 110px;
+                                    font-size: 13px;
+                                    height: 35px;
+                                    text-align: center;
+                                    line-height: 33px;
+                                    color: #666;
+                                    margin-left: 10px;
+                                    border: 1px solid #dfdfdf;
+                                    background-color: #f6f6f8;
+                                    @include transition();
+                                    &:hover, &:focus {
+                                        color: #fff;
+                                        border-color: #333;
+                                        background-color: #333;
+                                    }
+                                }
+                                input[type='file'] {
+                                    display: none !important;
+                                }
                             }
                         }
                     }

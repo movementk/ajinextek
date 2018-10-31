@@ -468,6 +468,8 @@ a {
         padding: 0;
         display: inline; }
 
+.news-view .section-content .view-content .view-head {
+  border-bottom: 1px solid #dfdfdf; }
 .news-view .section-content .view-content .btn-area {
   margin: 30px 0 80px; }
   .news-view .section-content .view-content .btn-area p {
@@ -562,6 +564,7 @@ a {
       font-weight: 400;
       margin-top: 15px; }
 .corporate-identity .section-content article.logo-type .article-content {
+  min-height: 396px;
   padding: 160px 0 30px;
   text-align: center;
   background-image: url(/assets/images/introduction/bg_ci.gif);

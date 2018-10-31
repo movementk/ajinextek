@@ -305,6 +305,95 @@
                             </div>
                         </div>
                     </article>
+                    <article class="accessory">
+                        <div class="article-header">
+                            <h4 class="sub-title">액세서리</h4>
+                        </div>
+                        <div class="board-type02">
+                            <ul class="row">
+                                <li class="col-3">
+                                    <div class="product-info">
+                                        <div class="item">
+                                            <div class="item-image">
+                                                <figure>
+                                                    <img src="/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                                </figure>
+                                            </div>
+                                            <p class="p-name">
+                                                액세서리 제목<br>
+                                                액세서리 제목2
+                                                <a href="#" class="btn btn-more" role="button">바로가기</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-3">
+                                    <div class="product-info">
+                                        <div class="item">
+                                            <div class="item-image">
+                                                <figure>
+                                                    <img src="/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                                </figure>
+                                            </div>
+                                            <p class="p-name">
+                                                액세서리 제목<br>
+                                                액세서리 제목2
+                                                <a href="#" class="btn btn-more" role="button">바로가기</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-3">
+                                    <div class="product-info">
+                                        <div class="item">
+                                            <div class="item-image">
+                                                <figure>
+                                                    <img src="/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                                </figure>
+                                            </div>
+                                            <p class="p-name">
+                                                액세서리 제목<br>
+                                                액세서리 제목2
+                                                <a href="#" class="btn btn-more" role="button">바로가기</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-3">
+                                    <div class="product-info">
+                                        <div class="item">
+                                            <div class="item-image">
+                                                <figure>
+                                                    <img src="/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                                </figure>
+                                            </div>
+                                            <p class="p-name">
+                                                액세서리 제목<br>
+                                                액세서리 제목2
+                                                <a href="#" class="btn btn-more" role="button">바로가기</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="col-3">
+                                    <div class="product-info">
+                                        <div class="item">
+                                            <div class="item-image">
+                                                <figure>
+                                                    <img src="/assets/images/product/img_product_slide01.jpg" class="img-fluid" alt="">
+                                                </figure>
+                                            </div>
+                                            <p class="p-name">
+                                                액세서리 제목<br>
+                                                액세서리 제목2
+                                                <a href="#" class="btn btn-more" role="button">바로가기</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
                     <div class="btn-area">
                         <p>
                             <a href="#" class="btn btn-md btn-gray" role="button">목록으로</a>

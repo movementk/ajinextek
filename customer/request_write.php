@@ -93,8 +93,10 @@
                                         <th>파일첨부</th>
                                         <td class="file" colspan="3">
                                             <div class="form-group">
-                                                <input type="file" id="u-attach" class="form-control">
-                                                <label for="u-attach">파일찾기</label>
+                                                <input type="text" class="form-control file" id="txt2" name="txt2" readonly>
+                                                <label for="txt2" class="sr-only">업로드된 파일명</label>
+                                                <input type="button" value="파일첨부" onclick="document.getElementById('file2').click();">
+                                                <input type="file" id="file2" name="file2" onchange="document.getElementById('txt2').value = this.value">
                                             </div>
                                         </td>
                                     </tr>

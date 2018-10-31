@@ -559,6 +559,8 @@ a {
       .table-wrap .table.table-write tbody tr th:before {
         content: "* ";
         color: #e25371; }
+      .table-wrap .table.table-write tbody tr th.file:before {
+        display: none; }
     .table-wrap .table.table-write tbody tr td {
       padding: 10px 30px;
       text-align: left; }
@@ -583,19 +585,40 @@ a {
         width: 360px; }
       .table-wrap .table.table-write tbody tr td .form-group input[type="file"].form-control {
         width: 520px; }
-      .table-wrap .table.table-write tbody tr td.file .form-control {
-        margin: 0; }
-      .table-wrap .table.table-write tbody tr td.file label {
-        cursor: pointer;
-        width: 110px;
-        font-size: 13px;
-        height: 35px;
-        text-align: center;
-        line-height: 33px;
-        color: #666;
-        margin-left: 10px;
-        border: 1px solid #dfdfdf;
-        background-color: #f6f6f8; }
+      .table-wrap .table.table-write tbody tr td.file .form-group {
+        position: relative; }
+        .table-wrap .table.table-write tbody tr td.file .form-group .file {
+          width: 100%; }
+        .table-wrap .table.table-write tbody tr td.file .form-group .form-control {
+          background-color: #fff !important; }
+        .table-wrap .table.table-write tbody tr td.file .form-group input[type='button'] {
+          position: absolute;
+          top: 0;
+          left: 360px;
+          cursor: pointer;
+          width: 110px;
+          font-size: 13px;
+          height: 35px;
+          text-align: center;
+          line-height: 33px;
+          color: #666;
+          margin-left: 10px;
+          border: 1px solid #dfdfdf;
+          background-color: #f6f6f8;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .table-wrap .table.table-write tbody tr td.file .form-group input[type='button']:hover, .table-wrap .table.table-write tbody tr td.file .form-group input[type='button']:focus {
+            color: #fff;
+            border-color: #333;
+            background-color: #333; }
+        .table-wrap .table.table-write tbody tr td.file .form-group input[type='file'] {
+          display: none !important; }
 
 .btn-area p {
   font-size: 0; }

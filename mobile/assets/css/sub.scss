@@ -427,6 +427,11 @@
                             content: "* ";
                             color: #e25371;
                         }
+                        &.file {
+                            &:before {
+                                display: none;
+                            }
+                        }
                     }
                     td {
                         vertical-align: middle;
