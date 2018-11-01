@@ -25,10 +25,11 @@
                 <li class="active"><a href="#"><i>MOTION CHIP</i></a></li>
                 <li><a href="#"><i>BOARD(Module)</i></a></li>
                 <li><a href="#"><i>BOARD(Single)</i></a></li>
-                <li><a href="#"><i>NETWORK</i></a></li>
+                <li class="space"><a href="#"><i>NETWORK CONTROLLER</i></a></li>
                 <li><a href="#"><i>PLC</i></a></li>
                 <li><a href="#"><i>ROBOT CONTROLLER</i></a></li>
                 <li><a href="#"><i>EZSOFTWARE</i></a></li>
+                <li><a href="#"><i>ACCESSORY</i></a></li>
             </ul>
         </div>
     </nav>

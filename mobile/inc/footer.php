@@ -4,8 +4,8 @@
         <ul>
             <li><a href="/mobile/customer/qna_list.php">문의하기</a></li>
             <li><a href="/mobile/customer/download.php">다운로드</a></li>
-            <li><a href="/mobile/customer/agency.php">대리점</a></li>
             <li><a href="/mobile/introduction/location.php">찾아오시는 길</a></li>
+            <li><a href="/mobile/customer/privacy.php">개인정보처리방침</a></li>
         </ul>
     </nav>
     <div class="company-info">
