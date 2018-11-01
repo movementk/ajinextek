@@ -386,7 +386,9 @@ a {
         padding: 0;
         display: inline-block; }
 .product-view .section-content .accessory {
-  margin-top: 70px; }
+  margin-top: 70px;
+  padding-left: 15px;
+  padding-right: 15px; }
   .product-view .section-content .accessory .article-header {
     padding-bottom: 25px; }
   .product-view .section-content .accessory > .board-type02 > ul > li .product-info {
