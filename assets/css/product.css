@@ -167,7 +167,7 @@ a {
   .product-view .section-content .product-tab-details .article-header > div {
     display: table-cell;
     width: 50%;
-    vertical-align: top; }
+    vertical-align: bottom; }
     .product-view .section-content .product-tab-details .article-header > div.product-summary {
       padding: 0 50px; }
     .product-view .section-content .product-tab-details .article-header > div.details-imgs {

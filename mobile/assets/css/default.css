@@ -457,6 +457,10 @@ body {
         #footer .company-info .information > ul > li:last-child:after {
           content: "";
           margin: 0; }
+      #footer .company-info .information > ul:nth-of-type(2) li:first-child {
+        display: block; }
+        #footer .company-info .information > ul:nth-of-type(2) li:first-child:after {
+          display: none; }
   #footer .copyright {
     text-align: center;
     color: #fff;

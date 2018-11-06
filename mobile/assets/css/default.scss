@@ -397,6 +397,16 @@ body {
                         }
                     }
                 }
+                &:nth-of-type(2) {
+                    li {
+                        &:first-child {
+                            display: block;
+                            &:after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
             }
         }
     }

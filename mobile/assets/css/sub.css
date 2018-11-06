@@ -362,8 +362,9 @@ a {
         text-decoration: none !important; }
         .faq-board .accordion .card .card-header > a:before {
           position: absolute;
-          top: 0;
+          top: 50%;
           left: 0;
+          margin-top: -14px;
           width: 28px;
           color: #fff;
           font-size: 10px;
@@ -406,7 +407,8 @@ a {
           line-height: 28px;
           margin-left: 38px;
           color: #282828;
-          word-break: keep-all; }
+          word-break: keep-all;
+          white-space: normal; }
         .faq-board .accordion .card .card-header > a.collapsed:before {
           color: #666;
           background-color: #f4f4f4; }
@@ -423,7 +425,19 @@ a {
       line-height: 22px;
       padding: 20px 10px 20px 48px;
       background-color: #fcfcfd;
-      border-bottom: 1px solid #ccc; }
+      border-bottom: 1px solid #ccc;
+      /*table {
+          width: 100% !important;
+          tbody {
+              tr {
+                  td {
+                      img {
+                          max-width: 100% !important;
+                      }
+                  }
+              }
+          }
+      }*/ }
       .faq-board .accordion .card .card-body:before {
         position: absolute;
         top: 16px;
@@ -537,7 +551,10 @@ a {
     font-weight: 400;
     line-height: 22px;
     min-height: 290px;
-    padding: 30px 10px 150px; }
+    padding: 30px 10px 150px;
+    /*table {
+        width: 100% !important;
+    }*/ }
   .board-view .attach {
     padding: 15px 10px;
     border-top: 1px solid #d1d1d1; }
