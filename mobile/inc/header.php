@@ -103,5 +103,9 @@
                 </ul>
             </li>
         </ul>
+        <div class="btn-language">
+            <a href="#" class="btn btn-default" role="button">영문</a>
+            <a href="#" class="btn btn-default" role="button">중문</a>
+        </div>
     </nav>
 </header>
